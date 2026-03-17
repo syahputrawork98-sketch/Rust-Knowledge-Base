@@ -6,6 +6,12 @@ Selamat datang! Sebelum kita bisa menempa pedang dengan Rust, kita perlu membang
 
 ---
 
+## 🔍 Apa itu "Installing Rust"?
+
+**Instalasi Rust** adalah proses menanamkan "alat-alat pertukangan" digital ke dalam sistem operasi Anda. Ini bukan sekadar menyalin file, melainkan mendaftarkan Rust ke dalam jalur perintah (*PATH*) komputer Anda agar ia bisa dipanggil kapan saja untuk mengubah teks menjadi aplikasi nyata.
+
+---
+
 ## 🎭 Analogi: "Si Tukang Kayu dan Asistennya"
 
 ### 1. Analogi Singkat (The Quick Snap)

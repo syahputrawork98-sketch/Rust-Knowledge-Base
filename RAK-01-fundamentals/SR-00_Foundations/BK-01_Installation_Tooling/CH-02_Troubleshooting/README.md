@@ -6,6 +6,12 @@ Membangun bengkel Rust pertama kali tidak selalu mulus. Terkadang, alat-alat pen
 
 ---
 
+## 🔍 Apa itu "Local Documentation"?
+
+**Dokumentasi Lokal** adalah salinan lengkap seluruh ilmu pengetahuan Rust yang disimpan langsung di hard drive Anda. Ini memastikan bahwa meskipun Anda berada di tempat tanpa sinyal internet, Anda tetap memiliki akses ke petunjuk teknis, buku panduan, dan referensi fungsi Rust yang paling mutakhir.
+
+---
+
 ## 🎭 Analogi: "Kunci Inggris yang Macet"
 
 ### 1. Analogi Singkat (The Quick Snap)

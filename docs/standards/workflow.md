@@ -4,6 +4,8 @@ Penulisan materi di Rust Knowledge Base mengikuti standar kualitas tinggi yang d
 
 ## 1. Narasi Detail (The Narrative)
 Jangan hanya menyalin dokumentasi teknis. Gunakan pendekatan bercerita yang ramah terhadap "orang awam" namun tetap akurat. 
+
+- **Definisi Judul (Title Definition)**: **WAJIB** menjelaskan secara gamblang apa arti dari judul bab tersebut di awal narasi. Misalnya, jika judulnya "Installing Rust", jelaskan apa itu proses instalasi dalam konteks sistem Rust. Jika judulnya "The Entry Point", jelaskan apa itu titik masuk sebuah program.
 - **Kaidah Istilah**: Narasi **WAJIB** menggunakan istilah teknis resmi sesuai *The Rust Book* (e.g., *Ownership*, *Borrowing*, *Shadowing*). Hal ini penting agar "orang awam" memiliki bahasa yang sama saat berdiskusi dengan *Senior Developer*, menghindari miskomunikasi atau "lost context".
 - **Kaidah "Kenapa"**: Penjelasan harus menjawab "Kenapa" fitur tersebut ada, bukan sekadar "Bagaimana" cara menggunakannya.
 

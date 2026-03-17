@@ -3,9 +3,11 @@
 Mengenal sintaksis paling murni Rust dengan menulis kode secara manual tanpa bantuan tool manager.
 
 ## Daftar Bab (Chapters)
-- **CH-01_First_Code**: Menulis `main.rs`.
-- **CH-02_Compilation_Process**: Bedah apa yang dilakukan `rustc` di balik layar.
-- **CH-03_Anatomy_of_Rust**: Penjelasan `fn main()`, kurung kurawal, dan `println!`.
+- **CH-01_Manual_Environment**: Menyiapkan folder proyek tanpa Cargo.
+- **CH-02_The_Entry_Point**: Membedah `fn main()` dan blok kode `{}`.
+- **CH-03_Macro_Introduction**: Mengapa `println!` memiliki tanda seru?
+- **CH-04_Manual_Compilation**: Berinteraksi langsung dengan `rustc`.
+- **CH-05_Syntax_Conventions**: Aturan penulisan (indentasi, titik koma, nama file).
 
----
-*Kembali ke [Sub-Rak](../README.md)*
+## 📊 Status Buku
+Progres detil setiap Bab dapat dipantau di: **[Status BK-02](./docs/status.md)**.

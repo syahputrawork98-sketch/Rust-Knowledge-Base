@@ -27,4 +27,14 @@ Sub-topik di dalam satu README Bab (Header H2 atau H3).
 - Memberikan detail spesifik tentang mekanisme tertentu.
 
 ---
+
+## 📏 Kaidah Granularitas Berbasis Sumber (Source-Driven)
+Untuk memastikan Hub ini "tidak setengah-setengah" namun tetap efisien, berlaku aturan:
+
+1.  **Tanpa Batas Kaku**: Tidak ada jumlah tetap untuk Rak, Sub-Rak, Buku, atau Bab. 
+2.  **Patokan Adalah Sumber**: Struktur harus mencerminkan kedalaman sumber asli (*The Rust Book*, *The Reference*, dsb).
+3.  **Dekomposisi Maksimal**: Jika materi di sumber sangat padat/panjang, **WAJIB** dipecah menjadi banyak Bab atau Buku agar mudah dicerna (Modular).
+4.  **Konsolidasi Efisien**: Jika materi di sumber sangat sedikit/singkat, beberapa poin bisa digabungkan ke dalam **satu Bab** yang sama untuk menjaga alur pembacaan.
+
+---
 *Back to [Structure Guide](../structure-guide.md)*

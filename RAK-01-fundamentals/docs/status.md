@@ -13,7 +13,7 @@ Rak ini melacak kemajuan pengerjaan materi dasar Rust.
 | :--- | :--- | :--- | :--- | :--- |
 | **SR-00** | Foundations | BK-01 | Installation_Tooling | Env Setup | 100% [x] | 🟢 |
 | **SR-01** | MemorySafety | Ownership & Borrow Checker | 0% [ ] | ⚪ |
-| **SR-02** | Variables_Mutability | Variabel & Shadowing | 0% [ ] | ⚪ |
+| **SR-02** | Variables_Mutability | BK-02 | Hello_Rust | Manual Entry | 100% [x] | 🟢 |
 | **SR-03** | DataTypes | Scalar & Compound Types | 0% [ ] | ⚪ |
 | **SR-04** | Functions | Sintaks fungsi & Expressions | 0% [ ] | ⚪ |
 | **SR-05** | ControlFlow | Kondisional & Loops | 0% [ ] | ⚪ |
