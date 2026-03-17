@@ -1,19 +1,24 @@
 # RAK-02-the-soul (The Brain)
 
-Rak ini membedah mekanisme paling ikonik dan krusial dalam Rust: **Memory Safety**. Di sinilah "Jiwa" dari Rust berada.
+> **"Memahami Jiwa Rust melalui Ownership & Borrowing."**
 
-## Fokus Pembelajaran
-- **Ownership**: Aturan kepemilikan data tunggal.
-- **Borrowing**: Referensi (`&`) vs Referensi Mutabel (`&mut`).
-- **Lifetimes**: Menjamin validitas referensi dalam memori.
-- **Stack vs Heap**: Bagaimana Rust mengelola alokasi memori secara fisik.
+Di Rak ini, kita masuk ke konsep yang paling membedakan Rust dari bahasa lain. Kita akan belajar bagaimana Rust mengelola memori tanpa Garbage Collector namun tetap aman secara otomatis.
+
+---
+
+## 📜 Tentang Rak Ini (About)
+`RAK-02-the-soul` fokus pada Chapter 4 dari "The Book". Di sini kita akan membedah tiga pilar utama:
+1. **Ownership**: Siapa pemilik data?
+2. **Borrowing**: Siapa yang dipinjami data?
+3. **Lifetimes**: Berapa lama data itu hidup?
+
+---
 
 ## 📊 Status Rak
-Progres detil Sub-Rak dapat dipantau di: **[Status RAK-02](./docs/status.md)**.
+Progres detil setiap Sub-Rak dapat dipantau di: **[Status RAK-02](./docs/status.md)**.
 
 ## Sub-Rak (Sub-Racks)
-- **SR-01_MemorySafety**: Mekanisme Borrow Checker.
-- **SR-02_Lifetimes**: Penanganan referensi lintas scope.
+- **SR-01_Ownership_Basics**: Ownership, References, Borrowing, dan Slices (Logika Memori).
 
 ---
 *Kembali ke [README](../../README.md)*

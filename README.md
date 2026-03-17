@@ -76,8 +76,8 @@ graph TD
 
 | Rak | Deskripsi | Sumber Utama | Status |
 | :--- | :--- | :--- | :--- |
-| `RAK-01-fundamentals/` | Sintaks & Logika Dasar | The Book (1-3) | [/] In Progress |
-| `RAK-02-the-soul/` | Ownership, Borrowing, Lifetimes | The Book (4), Reference | *Planned* |
+| `RAK-01-fundamentals/` | Sintaks & Logika Dasar | The Book (1-3) | 🟢 Published |
+| `RAK-02-the-soul/` | Ownership, Borrowing, Lifetimes | The Book (4), Reference | [/] In Progress |
 | `RAK-03-type-machine/` | Traits, Generics, Pattern Matching | The Book (6, 10, 17) | *Planned* |
 | `RAK-04-smart-pointers/` | Inventory Memori (Box, Arc, Pin) | The Book (15) | *Planned* |
 | `RAK-05-the-underworld/` | Unsafe, Raw Pointers, FFI | Nomicon, Reference | *Planned* |
