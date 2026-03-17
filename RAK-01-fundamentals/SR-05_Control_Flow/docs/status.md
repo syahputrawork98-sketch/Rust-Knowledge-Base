@@ -11,8 +11,8 @@ Sub-Rak ini melacak kemajuan pengerjaan materi Control Flow di Rust.
 
 | ID | Nama Buku | Fokus | Status | Progressive |
 | :--- | :--- | :--- | :--- | :--- |
-| **BK-01** | Selection_with_If | if, else if, if-let assignment | ⚪ Draft | 0% [ ] |
-| **BK-02** | Repetition_with_Loops | loop, while, for | ⚪ Draft | 0% [ ] |
+| **BK-01** | Selection_with_If | if, else if, if-let assignment | 🟢 Published | 100% [xxx] |
+| **BK-02** | Repetition_with_Loops | loop, while, for | 🟢 Published | 100% [xxx] |
 
 ---
 *Kembali ke [Control Flow](../README.md)*

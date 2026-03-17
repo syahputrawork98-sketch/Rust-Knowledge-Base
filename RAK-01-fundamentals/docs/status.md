@@ -16,7 +16,7 @@ Rak ini melacak kemajuan pengerjaan materi dasar Rust.
 | **SR-02** | Variables_Mutability | BK-01 | Variables_and_Mutability | 🟢 Published (100%) | 100% [x] | 🟢 |
 | **SR-03** | Data_Types | BK-02 | Compound_Types | 🟢 Published (100%) | 100% [x] | 🟢 |
 | SR-04 | Functions | [BK-01] | 🟢 Published (100%) | [README.md](./SR-04_Functions/README.md) | 100% [x] | 🟢 |
-| SR-05 | Control_Flow | BK-01 | Selection | Draft | 0% [ ] | ⚪ |
+| SR-05   | Control_Flow         | [BK-01, BK-02] | 🟢 Published (100%) | [README.md](./SR-05_Control_Flow/README.md) |
 
 ---
 *Back to [README](../README.md)*

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <!-- Background -->
+  <rect x="0" y="0" width="500" height="250" rx="15" fill="#ffffff" />
+  <rect x="10" y="10" width="480" height="230" rx="12" fill="#fafafa" stroke="#e0e0e0" stroke-width="1" />
+  
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#333">Visualisasi: "If" sebagai Ekspresi Assignment</text>
+
+  <!-- Assignment Code -->
+  <g transform="translate(50, 70)">
+    <rect x="0" y="0" width="400" height="100" rx="10" fill="#263238" />
+    
+    <text x="20" y="40" font-family="Consolas, monospace" font-size="14">
+      <tspan fill="#81d4fa">let</tspan>
+      <tspan fill="#ffffff"> x = </tspan>
+      <tspan fill="#ffcc80">if</tspan>
+      <tspan fill="#ffffff"> kondisi { </tspan>
+      <tspan fill="#a5d6a7">5</tspan>
+      <tspan fill="#ffffff"> } </tspan>
+      <tspan fill="#ffcc80">else</tspan>
+      <tspan fill="#ffffff"> { </tspan>
+      <tspan fill="#a5d6a7">6</tspan>
+      <tspan fill="#ffffff"> };</tspan>
+    </text>
+
+    <!-- Labels with arrows -->
+    <!-- Let label -->
+    <path d="M 30 50 L 30 110" stroke="#81d4fa" stroke-width="1.5" marker-end="url(#arrow-blue)" />
+    <text x="30" y="125" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#0288d1">Variabel Baru</text>
+
+    <!-- Expression label -->
+    <path d="M 230 50 L 230 110" stroke="#ffcc80" stroke-width="1.5" marker-end="url(#arrow-orange)" />
+    <text x="230" y="125" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#e65100">Blok Ekspresi (Menghasilkan Nilai)</text>
+
+    <!-- Type rule label -->
+    <path d="M 360 50 L 360 110" stroke="#a5d6a7" stroke-width="1.5" marker-end="url(#arrow-green)" />
+    <text x="360" y="125" text-anchor="middle" font-family="Segoe UI" font-size="9" fill="#2e7d32">Tipe Harus SAMA!</text>
+  </g>
+
+  <text x="250" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#666">"Nilai akhir dipilih dari salah satu cabang dan ditugaskan ke variabel"</text>
+
+  <defs>
+    <marker id="arrow-blue" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#81d4fa" />
+    </marker>
+    <marker id="arrow-orange" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#ffcc80" />
+    </marker>
+    <marker id="arrow-green" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#a5d6a7" />
+    </marker>
+  </defs>
+</svg>
