@@ -6,9 +6,9 @@ Dokumen ini mendefinisikan prosedur standar untuk memperbarui status kemajuan di
 
 | Level | File Lokasi | Fokus Utama |
 | :--- | :--- | :--- |
-| **Bab (CH)** | `README.md` (di setiap Bab) | Status spesifik: Narasi, Kode, Diagram. |
-| **Buku (BK)** | `BK-XX/docs/status.md` | Granular: Status per Bab, Jumlah Contoh Kode, Validasi Referensi. |
-| **Sub-Rak (SR)** | `SR-XX/docs/status.md` | Agregasi: Daftar Buku dalam Sub-Rak, Persentase Penyelesaian Buku. |
+| **Bab (CH)** | `CH-XX/README.md` | Narasi, Analogi, Istilah, SVG, Example. |
+| **Buku (BK)** | `BK-XX/docs/status.md` | Granular: Status Bab, **Section Count**, SVG/Example Count, Source Sync. |
+| **Sub-Rak (SR)** | `SR-XX/docs/status.md` | Agregasi: Daftar Buku dalam Sub-Rak. |
 | **Rak (RAK)** | `RAK-XX/docs/status.md` | Agregasi: Daftar Sub-Rak, Persentase Penyelesaian Sub-Rak. |
 | **Root (HUB)** | `docs/status.md` | Master: Status Keseluruhan Hub (High-Level Roadmap). |
 

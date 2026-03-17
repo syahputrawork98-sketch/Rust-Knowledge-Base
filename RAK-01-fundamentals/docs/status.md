@@ -11,7 +11,7 @@ Rak ini melacak kemajuan pengerjaan materi dasar Rust.
 
 | ID | Nama Sub-Rak | Fokus | Progressive Status | Health |
 | :--- | :--- | :--- | :--- | :--- |
-| **SR-00** | Foundations | Setup & Hello World | 10% [/] | 🟢 |
+| **SR-00** | Foundations | BK-01 | Installation_Tooling | Env Setup | 100% [x] | 🟢 |
 | **SR-01** | MemorySafety | Ownership & Borrow Checker | 0% [ ] | ⚪ |
 | **SR-02** | Variables_Mutability | Variabel & Shadowing | 0% [ ] | ⚪ |
 | **SR-03** | DataTypes | Scalar & Compound Types | 0% [ ] | ⚪ |
