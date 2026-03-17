@@ -1,4 +1,4 @@
-# SR-01_Memory_Management (The Heart)
+# SR-06_Ownership_Basics (The Heart)
 
 > **"Kedaulatan Memori Tanpa Penjaga Otomatis."**
 
@@ -8,7 +8,7 @@ Inilah **Jantung (The Heart)** dari Rust. Jika Anda bertanya apa yang membuat Ru
 
 ## 🫀 Tentang Sub-Rak Ini (About)
 
-`SR-01_Memory_Management` adalah tempat di mana kita belajar tentang **Trilogi Keselamatan Memori**. Di sini, kita tidak hanya belajar sintaks, tapi belajar tentang hukum alam memori komputer.
+`SR-06_Ownership_Basics` adalah tempat di mana kita belajar tentang **Trilogi Keselamatan Memori**. Di sini, kita tidak hanya belajar sintaks, tapi belajar tentang hukum alam memori komputer.
 
 - **Jiwa Sub-Rak**: Memahami transisi dari "Manajemen Manual yang Berbahaya" ke "Sistem Kepemilikan yang Ketat tapi Aman".
 - **Filosofi**: *"Keamanan tidak harus mengorbankan kecepatan."*
