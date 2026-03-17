@@ -1,0 +1,19 @@
+<svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Enum: LampuLaluLintas</text>
+  
+  <!-- Merah -->
+  <rect x="50" y="60" width="80" height="40" rx="5" fill="#e03131"/>
+  <text x="65" y="85" font-family="Arial" font-size="14" fill="white">Merah</text>
+  
+  <!-- Kuning -->
+  <rect x="150" y="60" width="80" height="40" rx="5" fill="#fcc419"/>
+  <text x="162" y="85" font-family="Arial" font-size="14" fill="#343a40">Kuning</text>
+  
+  <!-- Hijau -->
+  <rect x="250" y="60" width="80" height="40" rx="5" fill="#2f9e44"/>
+  <text x="268" y="85" font-family="Arial" font-size="14" fill="white">Hijau</text>
+  
+  <path d="M 90 110 L 90 140 L 310 140 L 310 110" stroke="#adb5bd" fill="none" stroke-width="2"/>
+  <text x="110" y="160" font-family="Arial" font-size="12" fill="#868e96">Hanya satu varian yang aktif pada satu waktu</text>
+</svg>

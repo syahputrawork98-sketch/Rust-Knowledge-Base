@@ -1,0 +1,25 @@
+<svg width="450" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f9fa"/>
+  <text x="20" y="30" font-family="Arial" font-size="16" font-weight="bold" fill="#343a40">Trait Implementation Map</text>
+  
+  <!-- Trait -->
+  <rect x="175" y="100" width="100" height="50" rx="5" fill="#1864ab"/>
+  <text x="185" y="130" font-family="Arial" font-size="14" font-weight="bold" fill="white">trait Speak</text>
+  
+  <!-- Types -->
+  <rect x="50" y="60" width="80" height="30" rx="5" fill="#e9ecef" stroke="#adb5bd"/>
+  <text x="65" y="80" font-family="Arial" font-size="12" fill="#495057">Human</text>
+  
+  <rect x="50" y="160" width="80" height="30" rx="5" fill="#e9ecef" stroke="#adb5bd"/>
+  <text x="70" y="180" font-family="Arial" font-size="12" fill="#495057">Duck</text>
+  
+  <rect x="320" y="110" width="80" height="30" rx="5" fill="#e9ecef" stroke="#adb5bd"/>
+  <text x="340" y="130" font-family="Arial" font-size="12" fill="#495057">Robot</text>
+  
+  <!-- Connections -->
+  <path d="M 130 75 L 175 110" stroke="#1864ab" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 130 175 L 175 140" stroke="#1864ab" stroke-width="2" stroke-dasharray="4"/>
+  <path d="M 320 125 L 275 125" stroke="#1864ab" stroke-width="2" stroke-dasharray="4"/>
+  
+  <text x="130" y="240" font-family="Arial" font-size="12" fill="#868e96">Banyak tipe, satu kontrak perilaku.</text>
+</svg>
