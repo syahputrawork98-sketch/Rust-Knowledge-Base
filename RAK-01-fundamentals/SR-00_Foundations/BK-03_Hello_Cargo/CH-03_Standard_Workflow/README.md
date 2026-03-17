@@ -53,9 +53,18 @@ cargo run
 
 ---
 
-## 🗺️ Visualisasi: Siklus Hidup Pengembangan
-
 ![Development Lifecycle](./assets/development-lifecycle.svg)
+
+---
+
+## 🧪 Latihan Mandiri: Eksperimen Siklus Cargo
+
+Mari kita praktekkan siklus ini di terminal Anda:
+
+1.  **Check**: Jalankan `cargo check`. Perhatikan betapa cepatnya Cargo memvalidasi kode tanpa membuat file di folder `target/debug`.
+2.  **Run**: Jalankan `cargo run`. Cargo akan melakukan kompilasi penuh dan langsung mengeksekusi program.
+3.  **Speed Test**: Jalankan `cargo run` sekali lagi tanpa mengubah kode. Perhatikan bahwa program langsung berjalan instan karena Cargo tahu tidak ada perubahan.
+4.  **Edit & Check**: Ubah teks di `src/main.rs`, lalu jalankan `cargo check`. Lihtlah bagaimana asisten lab Anda menemukan perubahan tersebut dengan cepat.
 
 ---
 > [!IMPORTANT]

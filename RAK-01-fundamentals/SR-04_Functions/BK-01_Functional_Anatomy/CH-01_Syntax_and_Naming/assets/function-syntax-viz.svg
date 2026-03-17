@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <rect x="10" y="10" width="480" height="230" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Anatomi Definisi Fungsi</text>
+
+  <!-- Code Block -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="400" height="120" rx="10" fill="#263238" />
+    
+    <!-- Code Highlight -->
+    <text x="20" y="40" font-family="Courier New" font-size="14" fill="#ffcc80">fn</text> <!-- fn keyword -->
+    <text x="50" y="40" font-family="Courier New" font-size="14" fill="#81d4fa">tarian_pagi</text> <!-- function name -->
+    <text x="150" y="40" font-family="Courier New" font-size="14" fill="#fff">() {</text> <!-- parameters start -->
+    
+    <text x="40" y="70" font-family="Courier New" font-size="14" fill="#a5d6a7">    println!("Lompat!");</text>
+    
+    <text x="20" y="100" font-family="Courier New" font-size="14" fill="#fff">}</text>
+  </g>
+
+  <!-- Labels -->
+  <!-- fn label -->
+  <path d="M 65 60 L 65 45" stroke="#ffcc80" stroke-width="1.5" marker-end="url(#arrow-orange)" />
+  <text x="65" y="195" text-anchor="middle" font-family="Arial" font-size="10" fill="#e65100">Keyword</text>
+
+  <!-- name label -->
+  <path d="M 105 60 L 105 45" stroke="#81d4fa" stroke-width="1.5" marker-end="url(#arrow-blue)" />
+  <text x="105" y="195" text-anchor="middle" font-family="Arial" font-size="10" fill="#01579b">Nama (snake_case)</text>
+
+  <text x="250" y="225" text-anchor="middle" font-family="Arial" font-size="9" fill="#999">"Fungsi mengelompokkan kode ke dalam unit yang bernama."</text>
+
+  <defs>
+    <marker id="arrow-orange" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#ffcc80" />
+    </marker>
+    <marker id="arrow-blue" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#81d4fa" />
+    </marker>
+  </defs>
+</svg>
