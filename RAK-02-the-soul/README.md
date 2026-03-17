@@ -16,6 +16,7 @@ Di Rak ini, kita masuk ke konsep yang paling membedakan Rust dari bahasa lain. K
 
 ## 📊 Status Rak
 Progres detil setiap Sub-Rak dapat dipantau di: **[Status RAK-02](./docs/status.md)**.
+Status: 🟢 **Published (100%)**
 
 ## Sub-Rak (Sub-Racks)
 - **SR-01_Ownership_Basics**: Ownership, References, Borrowing, dan Slices (Logika Memori).
