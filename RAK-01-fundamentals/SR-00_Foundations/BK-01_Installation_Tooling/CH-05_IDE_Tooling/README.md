@@ -39,17 +39,7 @@ Ini adalah **Language Server Protocol (LSP)** yang melakukan analisis mendalam t
 
 ## 🗺️ Visualisasi: IDE Feedback Loop
 
-```mermaid
-graph TD
-    User([Anda Mengetik]) --> IDE[VS Code]
-    IDE <-->|LSP| RA[rust-analyzer]
-    RA <-->|Analisis Cepat| Tool[check / clippy]
-    RA -->|Visualisasi| Tips[Inlay Hints & Errors]
-    Tips -->|Membantu| User
-    
-    style RA fill:#f96,stroke:#333
-    style Tips fill:#0f0,stroke:#333
-```
+![IDE Feedback Loop](./assets/ide-feedback-loop.svg)
 
 ---
 

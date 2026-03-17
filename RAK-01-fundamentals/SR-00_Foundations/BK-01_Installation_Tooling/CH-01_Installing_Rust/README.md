@@ -43,18 +43,7 @@ Pilih opsi **1 (default)** untuk membiarkan asisten Anda mengatur segalanya seca
 
 ## 🗺️ Visualisasi: Alur Kerja Rustup
 
-```mermaid
-graph TD
-    A["User (Anda)"] -->|Memanggil| B("rustup")
-    B -->|Mengelola| C("Compiler (rustc)")
-    B -->|Mengelola| D("Package Manager (cargo)")
-    B -->|Mengelola| E("Standard Library (std)")
-    C & D & E -->|Membentuk| F["Rust Toolchain"]
-    F -->|Membangun| G["Aplikasi Aman & Cepat"]
-    
-    style B fill:#f96,stroke:#333,stroke-width:2px
-    style G fill:#00ff00,stroke:#333,stroke-width:2px
-```
+![Rustup Workflow](./assets/rustup-workflow.svg)
 
 ---
 

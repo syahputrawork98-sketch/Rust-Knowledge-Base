@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="10" y="10" width="480" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Biner Logika: Gerbang Boolean</text>
+
+  <!-- true state -->
+  <g transform="translate(80, 60)">
+    <circle cx="50" cy="40" r="30" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" />
+    <path d="M 50 20 L 50 60 M 35 30 L 65 30 L 50 60" fill="none" stroke="#fbc02d" stroke-width="2" />
+    <text x="50" y="90" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#f57f17">true</text>
+    <text x="50" y="105" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">(Lampu Nyala)</text>
+  </g>
+
+  <!-- false state -->
+  <g transform="translate(320, 60)">
+    <circle cx="50" cy="40" r="30" fill="#eeeeee" stroke="#999" stroke-width="2" />
+    <line x1="35" y1="25" x2="65" y2="55" stroke="#999" stroke-width="2" />
+    <line x1="65" y1="25" x2="35" y2="55" stroke="#999" stroke-width="2" />
+    <text x="50" y="90" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#666">false</text>
+    <text x="50" y="105" text-anchor="middle" font-family="Arial" font-size="8" fill="#666">(Lampu Mati)</text>
+  </g>
+
+  <rect x="180" y="60" width="4" height="80" fill="#ccc" rx="2" />
+  <text x="250" y="160" text-anchor="middle" font-family="Arial" font-size="9" fill="#999">"Each bool value occupies one byte."</text>
+</svg>

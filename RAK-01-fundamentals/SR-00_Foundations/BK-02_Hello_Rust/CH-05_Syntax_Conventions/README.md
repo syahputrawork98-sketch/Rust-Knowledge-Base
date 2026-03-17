@@ -36,14 +36,7 @@ Mengikuti etika ini membuat kode Anda dianggap aseli dan profesional (*Idiomatic
 
 ## 🗺️ Visualisasi: Kekuatan Indentasi
 
-```mermaid
-graph LR
-    Bad[Kode Berantakan] -->|Gaya: Satu Baris| C1["fn main(){println!(\"Hi\");}"]
-    Good[Kode Idiomatic] -->|Gaya: Berjenjang| C2["fn main() {<br/>&nbsp;&nbsp;&nbsp;&nbsp;println!(\"Hi\");<br/>}"]
-    
-    style C2 fill:#bfb,stroke:#333
-    style C1 fill:#fbb,stroke:#333
-```
+![Indentation Power](./assets/indentation-power.svg)
 
 ---
 > [!TIP]

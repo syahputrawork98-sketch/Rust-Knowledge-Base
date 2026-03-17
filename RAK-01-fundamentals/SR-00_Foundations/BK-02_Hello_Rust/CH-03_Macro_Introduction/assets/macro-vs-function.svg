@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect x="10" y="10" width="480" height="280" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Kerja Makro vs Fungsi</text>
+
+  <rect x="190" y="50" width="120" height="40" rx="20" fill="#eee" stroke="#333" />
+  <text x="250" y="75" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">👤 User Call</text>
+
+  <path d="M 250 90 L 250 110" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <polygon points="250,110 320,140 250,170 180,140" fill="#fff" stroke="#333" />
+  <text x="250" y="145" text-anchor="middle" font-family="Arial" font-size="9">🔍 Cek Jenis</text>
+
+  <path d="M 180 140 L 100 140 L 100 180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="100" y="130" text-anchor="middle" font-family="Arial" font-size="8">Fungsi</text>
+  <rect x="30" y="180" width="140" height="40" rx="5" fill="#eee" stroke="#333" />
+  <text x="100" y="205" text-anchor="middle" font-family="Arial" font-size="8">📏 Argumen Kaku</text>
+
+  <path d="M 320 140 L 400 140 L 400 180" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="400" y="130" text-anchor="middle" font-family="Arial" font-size="8">Makro (!)</text>
+  <rect x="330" y="180" width="140" height="40" rx="5" fill="#f96" stroke="#333" />
+  <text x="400" y="205" text-anchor="middle" font-family="Arial" font-size="8">💥 Kode "Meledak"</text>
+
+  <path d="M 400 220 L 400 240 L 250 240" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <rect x="180" y="230" width="140" height="40" rx="5" fill="#bbf" stroke="#333" />
+  <text x="250" y="255" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold">⚙️ Kompilasi ke Biner</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

@@ -49,22 +49,7 @@ Gunakan skrip di folder `examples/` untuk mengecek apakah sistem Anda sudah memi
 
 ## 🗺️ Visualisasi: Pohon Keputusan Troubleshooting
 
-```mermaid
-graph TD
-    Start((Mulai)) --> Command{rustc --version?}
-    Command -->|Error: Command Not Found| Path[Periksa PATH / Restart Terminal]
-    Command -->|Berhasil| Build{Coba Build Kode}
-    
-    Build -->|Error: Linker 'cc' / cl| Linker[Instal Build Tools / MSVC]
-    Build -->|Error: Permission| Admin[Jalankan sebagai Admin/Sudo]
-    Build -->|Berhasil| Success((Bengkel Siap!))
-    
-    Path --> Command
-    Linker --> Build
-    
-    style Success fill:#0f0,stroke:#333
-    style Start fill:#ccc,stroke:#333
-```
+![Troubleshooting Tree](./assets/troubleshooting-tree.svg)
 
 ---
 > [!IMPORTANT]

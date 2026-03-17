@@ -30,18 +30,7 @@ Alasan utama `println!` adalah makro:
 
 ## 🗺️ Visualisasi: Kerja Makro vs Fungsi
 
-```mermaid
-graph TD
-    User([User Call]) --> Type{Cek Jenis}
-    Type -->|Fungsi: print| Strict[Argumen Harus Kaku / Statis]
-    Type -->|Makro: print!| Macro[Analisis Input -> Tulis Ulang Kode]
-    
-    Macro -->|Hasil| Generated[Kode Rust yang Sangat Detail]
-    Generated -->|Lanjut| Compiler[Kompilasi ke Biner]
-    
-    style Macro fill:#f96,stroke:#333
-    style Generated fill:#bbf,stroke:#333
-```
+![Macro vs Function](./assets/macro-vs-function.svg)
 
 ---
 > [!IMPORTANT]

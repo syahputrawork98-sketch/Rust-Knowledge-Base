@@ -37,17 +37,7 @@ fn main() {
 
 ## 🗺️ Visualisasi: Peta Alur Entry Point
 
-```mermaid
-graph TD
-    OS[Sistem Operasi] -->|Cari| Keyword{fn main}
-    Keyword -->|Ditemukan| Start[Eksekusi Baris Pertama]
-    Start -->|Jalankan| Logic[Blok di dalam KURUNG KURAWAL]
-    Logic -->|Selesai| End[Keluar Program]
-    
-    style Keyword fill:#f96,stroke:#333
-    style Start fill:#bbf,stroke:#333
-    style Logic fill:#bfb,stroke:#333
-```
+![Entry Point Map](./assets/entry-point-map.svg)
 
 ---
 > [!IMPORTANT]

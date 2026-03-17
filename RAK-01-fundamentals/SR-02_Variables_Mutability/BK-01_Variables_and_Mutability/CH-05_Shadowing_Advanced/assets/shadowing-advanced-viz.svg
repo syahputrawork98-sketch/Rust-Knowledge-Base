@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect x="10" y="10" width="480" height="280" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Scope Shadowing: Efek Topeng</text>
+
+  <!-- Outer Scope -->
+  <rect x="30" y="50" width="440" height="220" rx="10" fill="#f5f5f5" stroke="#999" stroke-dasharray="5,5" />
+  <text x="50" y="70" font-family="Arial" font-size="10" fill="#666">GLOBAL SCOPE { main }</text>
+
+  <g transform="translate(60, 80)">
+    <rect x="0" y="0" width="100" height="40" rx="5" fill="#e3f2fd" stroke="#1565c0" />
+    <text x="50" y="25" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">let x = 6;</text>
+  </g>
+
+  <!-- Inner Scope -->
+  <rect x="180" y="100" width="270" height="150" rx="10" fill="#ffffff" stroke="#333" stroke-width="2" />
+  <text x="200" y="120" font-family="Arial" font-size="10" font-weight="bold">INNER SCOPE { ... }</text>
+
+  <path d="M 160 100 L 200 140" stroke="#1565c0" stroke-width="2" stroke-opacity="0.3" stroke-dasharray="2,2" />
+
+  <g transform="translate(250, 140)">
+    <rect x="0" y="0" width="120" height="50" rx="5" fill="#fff9c4" stroke="#fbc02d" stroke-width="2" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold">let x = 12;</text>
+    <text x="60" y="42" text-anchor="middle" font-family="Arial" font-size="8" fill="#f57f17">Topeng Sementara</text>
+  </g>
+
+  <path d="M 310 195 L 310 230" stroke="#f44336" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="320" y="220" font-family="Arial" font-size="9" fill="#f44336">Keluar Scope (Lenyap)</text>
+
+  <path d="M 140 230 L 70 130" stroke="#2196f3" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <text x="50" y="220" font-family="Arial" font-size="9" fill="#1565c0">"x" Asli Muncul Kembali</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="10" y="10" width="480" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Konsep Immutability (Default)</text>
+
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#e1f5fe" stroke="#01579b" stroke-width="2" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">let x = 5;</text>
+    <rect x="20" y="35" width="80" height="15" rx="3" fill="#01579b" />
+    <text x="60" y="46" text-anchor="middle" font-family="Arial" font-size="8" fill="white">🔒 IMMUTABLE</text>
+  </g>
+
+  <path d="M 170 90 L 230 90" stroke="#f44336" stroke-width="2" marker-end="url(#crosshead)" />
+  <text x="200" y="80" text-anchor="middle" font-family="Arial" font-size="9" fill="#f44336">Mencoba Ubah</text>
+
+  <g transform="translate(250, 60)">
+    <rect x="0" y="0" width="180" height="80" rx="5" fill="#ffebee" stroke="#c62828" stroke-dasharray="5,5" />
+    <text x="90" y="30" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#b71c1c">❌ COMPILER REJECT</text>
+    <text x="90" y="55" text-anchor="middle" font-family="Arial" font-size="9" fill="#c62828">cannot assign twice</text>
+    <text x="90" y="68" text-anchor="middle" font-family="Arial" font-size="9" fill="#c62828">to immutable variable</text>
+  </g>
+
+  <defs>
+    <marker id="crosshead" markerWidth="10" markerHeight="10" refX="5" refY="5">
+      <line x1="2" y1="2" x2="8" y2="8" stroke="#f44336" stroke-width="2" />
+      <line x1="8" y1="2" x2="2" y2="8" stroke="#f44336" stroke-width="2" />
+    </marker>
+  </defs>
+</svg>

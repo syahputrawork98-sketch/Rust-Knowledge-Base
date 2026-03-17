@@ -60,16 +60,7 @@ hello_world/
 
 ## 🗺️ Visualisasi: Struktur Organisasi Manual
 
-```mermaid
-graph TD
-    Project[Folder Proyek: hello_world/]
-    Source[File Utama: main.rs]
-    
-    Project --- Source
-    
-    style Project fill:#f96,stroke:#333
-    style Source fill:#bbf,stroke:#333
-```
+![Manual Structure](./assets/manual-structure.svg)
 
 ---
 > [!IMPORTANT]

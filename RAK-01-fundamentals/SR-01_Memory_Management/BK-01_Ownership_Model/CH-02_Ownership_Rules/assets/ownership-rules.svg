@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350">
+  <rect x="10" y="10" width="480" height="330" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Penegakan Hukum Ownership</text>
+
+  <rect x="30" y="60" width="440" height="110" rx="10" fill="#e8f5e9" stroke="#2e7d32" stroke-dasharray="5,5" />
+  <text x="50" y="80" font-family="Arial" font-size="12" font-weight="bold" fill="#1b5e20">Hukum 1 &amp; 2: Kedaulatan</text>
+  
+  <rect x="180" y="90" width="140" height="60" rx="5" fill="#f96" stroke="#333" />
+  <text x="250" y="115" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">👤 OWNER: s1</text>
+  <rect x="190" y="125" width="120" height="20" rx="3" fill="#bbf" stroke="#333" />
+  <text x="250" y="138" text-anchor="middle" font-family="Arial" font-size="9">💎 NILAI: 'Rust'</text>
+
+  <rect x="30" y="190" width="440" height="130" rx="10" fill="#fff3e0" stroke="#e65100" stroke-dasharray="5,5" />
+  <text x="50" y="210" font-family="Arial" font-size="12" font-weight="bold" fill="#bf360c">Hukum 3: Pembersihan Otomatis</text>
+
+  <rect x="190" y="230" width="120" height="30" rx="5" fill="#eee" stroke="#333" stroke-width="2" />
+  <text x="250" y="250" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🧱 BATAS: '}'</text>
+
+  <path d="M 250 150 L 250 230" stroke="#333" stroke-width="2" stroke-dasharray="2,2" marker-end="url(#arrowhead)" />
+
+  <rect x="180" y="275" width="140" height="35" rx="5" fill="#f66" stroke="#333" />
+  <text x="250" y="297" text-anchor="middle" font-family="Arial" font-size="10" fill="white" font-weight="bold">🔥 DROP</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

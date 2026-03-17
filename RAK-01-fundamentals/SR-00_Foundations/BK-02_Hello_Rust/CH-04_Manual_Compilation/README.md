@@ -55,19 +55,7 @@ Ketik nama file biner tersebut untuk menjalankannya:
 
 ## 🗺️ Visualisasi: Alur Transformasi Biner
 
-```mermaid
-graph LR
-    Source[main.rs] -->|Kompilasi: rustc| Compiler{rustc Check}
-    Compiler -->|Gagal| Error[Tampilkan Pesan Error]
-    Compiler -->|Berhasil| Binary[File Biner / EXE]
-    
-    Binary -->|Dijalankan| CPU[Proses oleh CPU]
-    CPU -->|Output| Screen[Hasil di Layar]
-    
-    style Binary fill:#f96,stroke:#333
-    style Compiler fill:#bbf,stroke:#333
-    style Screen fill:#0f0,stroke:#333
-```
+![Compilation Flow](./assets/compilation-flow.svg)
 
 ---
 > [!IMPORTANT]

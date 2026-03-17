@@ -3,7 +3,7 @@
 Rak ini melacak kemajuan pengerjaan materi dasar Rust.
 
 ## Ringkasan Rak
-- **Total Kemajuan**: 5%
+- **Total Kemajuan**: 80%
 - **Status Rak**: 🟡 In Development
 - **Target**: Menyelesaikan SR-01 hingga SR-05 secara naratif.
 
@@ -11,12 +11,12 @@ Rak ini melacak kemajuan pengerjaan materi dasar Rust.
 
 | ID | Nama Sub-Rak | Fokus | Progressive Status | Health |
 | :--- | :--- | :--- | :--- | :--- |
-| **SR-00** | Foundations | BK-01 | Installation_Tooling | Env Setup | 100% [x] | 🟢 |
-| **SR-01** | MemorySafety | Ownership & Borrow Checker | 0% [ ] | ⚪ |
-| **SR-02** | Variables_Mutability | BK-02 | Hello_Rust | Manual Entry | 100% [x] | 🟢 |
-| **SR-03** | DataTypes | Scalar & Compound Types | 0% [ ] | ⚪ |
-| **SR-04** | Functions | Sintaks fungsi & Expressions | 0% [ ] | ⚪ |
-| **SR-05** | ControlFlow | Kondisional & Loops | 0% [ ] | ⚪ |
+| **SR-00** | Foundations | BK-03 | Hello_Cargo | Automation Setup | 100% [x] | 🟢 |
+| **SR-01** | Memory_Management | BK-03 | Lifetimes | 🟢 Published (100%) | 100% [x] | 🟢 |
+| **SR-02** | Variables_Mutability | BK-01 | Variables_and_Mutability | 🟢 Published (100%) | 100% [x] | 🟢 |
+| **SR-03** | Data_Types | BK-02 | Compound_Types | 🟢 Published (100%) | 100% [x] | 🟢 |
+| **SR-04** | Functions | BK-01 | Syntax | Draft | 0% [ ] | ⚪ |
+| **SR-05** | Control_Flow | BK-01 | Selection | Draft | 0% [ ] | ⚪ |
 
 ---
 *Back to [README](../README.md)*

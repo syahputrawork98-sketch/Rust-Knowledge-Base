@@ -2,6 +2,12 @@
 
 Penulisan materi di Rust Knowledge Base mengikuti standar kualitas tinggi yang disebut **"Gold Standard"**. Setiap Bab (CH) harus memiliki empat komponen wajib:
 
+## 0. Diskusi Pra-Implementasi (Pre-Implementation Discussion)
+Sebelum mulai membuat Buku (BK) atau Sub-Rak (SR) baru, **WAJIB** dilakukan diskusi dengan USER untuk menentukan dekomposisi materi berdasarkan sumber resmi (*The Rust Book* atau lainnya).
+- **Justifikasi Kuantitas**: Jelaskan mengapa sebuah Sub-Rak memiliki X jumlah Buku dan Y jumlah Bab.
+- **Pemetaan Sumber**: Tunjukkan bab mana dari sumber asli yang dipetakan ke dalam struktur baru.
+- **Approval**: Implementasi hanya boleh dimulai setelah USER menyetujui rencana dekomposisi tersebut.
+
 ## 1. Narasi Detail (The Narrative)
 Jangan hanya menyalin dokumentasi teknis. Gunakan pendekatan bercerita yang ramah terhadap "orang awam" namun tetap akurat. 
 
@@ -16,10 +22,23 @@ Analogisasi adalah kunci untuk membedah konsep sistem Rust yang kompleks:
 
 ## 3. Visualisasi SVG/Mermaid (The Map)
 Gunakan diagram untuk memetakan alur kerja, struktur memori (Stack vs Heap), atau hubungan antar modul.
-- Semua diagram harus menggunakan format **Mermaid.js** atau **SVG**.
-- Diagram harus interaktif atau menyertakan Emoji agar lebih hidup.
+- **Kriteria Wajib (Mandatory)**: Diagram **WAJIB** ada jika bab membahas:
+    - **Alur Proses**: (e.g., Alur Instalasi, Alur Kompilasi).
+    - **Arsitektur/Hubungan**: (e.g., Struktur Folder, Hubungan Komponen Toolchain).
+    - **Model Mental**: (e.g., Cara kerja Ownership, Stack vs Heap).
+- **Kualitas Premium**:
+    - Gunakan fitur warna di Mermaid (`style`, `fill`, `stroke`).
+    - Sertakan Emoji atau Ikon di dalam node jika memungkinkan untuk meningkatkan keterbacaan (e.g., `Compiler {fn main}`).
+    - Layout harus seimbang; hindari diagram yang terlalu panjang atau tumpang tindih.
+- Semua diagram harus menggunakan format **Mermaid.js** (di dalam README) dan **SVG** (di dalam folder assets).
 
-## 4. Contoh Kode Praktis (The Examples)
+## 4. Manajemen Aset (Assets Management)
+Setiap Bab (CH) **WAJIB** memiliki folder `assets/` untuk menyimpan file visualisasi:
+- **SVG Export**: Setiap diagram Mermaid yang ada di README harus di-export menjadi file `.svg` dan diletakkan di folder `assets/`.
+- **Penamaan**: Gunakan nama yang deskriptif dan konsisten (e.g., `ownership-flow.svg`, `stack-heap-layout.svg`).
+- **Referensi**: README dapat merujuk ke file SVG ini sebagai cadangan atau untuk tampilan yang lebih tajam.
+
+## 5. Contoh Kode Praktis (The Examples)
 Setiap Bab harus memiliki folder `examples/` berisi minimal satu file `.rs` yang bisa dijalankan.
 - Kode harus fokus, bersih, dan menyertakan komentar penjelasan di baris-baris kritis.
 

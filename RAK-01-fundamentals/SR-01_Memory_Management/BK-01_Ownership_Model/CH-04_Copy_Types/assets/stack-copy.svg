@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="10" y="10" width="480" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Duplikasi di Stack (Copy Mechanism)</text>
+
+  <rect x="30" y="50" width="440" height="120" rx="5" fill="#e1f5fe" stroke="#01579b" stroke-dasharray="5,5" />
+  <text x="250" y="70" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Stack Memory</text>
+
+  <g transform="translate(60, 90)">
+    <rect x="0" y="0" width="120" height="40" rx="5" fill="#bbf" stroke="#333" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="10">Variable x: 5</text>
+    <rect x="0" y="45" width="120" height="20" rx="3" fill="#e8f5e9" stroke="#2e7d32" />
+    <text x="60" y="58" text-anchor="middle" font-family="Arial" font-size="9" fill="#1b5e20">✅ VALID</text>
+  </g>
+
+  <path d="M 180 110 L 310 110" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="245" y="105" text-anchor="middle" font-family="Arial" font-size="9">🛡️ Aman Disalin</text>
+
+  <g transform="translate(320, 90)">
+    <rect x="0" y="0" width="120" height="40" rx="5" fill="#bbf" stroke="#333" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="10">Variable y: 5</text>
+    <rect x="0" y="45" width="120" height="20" rx="3" fill="#e8f5e9" stroke="#2e7d32" />
+    <text x="60" y="58" text-anchor="middle" font-family="Arial" font-size="9" fill="#1b5e20">✅ VALID</text>
+  </g>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

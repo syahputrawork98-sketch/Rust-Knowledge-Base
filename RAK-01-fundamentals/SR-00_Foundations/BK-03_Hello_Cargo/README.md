@@ -1,11 +1,13 @@
 # BK-03_Hello_Cargo
 
-Eksplorasi manajer proyek Rust yang akan menjadi teman setia Anda dalam membangun aplikasi skala besar.
+Buku ini membahas penggunaan **Cargo**, alat pengembang standar Rust yang mengotomatisasi proses pembuatan proyek, manajemen ketergantungan (dependencies), dan kompilasi.
 
-## Daftar Bab (Chapters)
-- **CH-01_Modern_Workflow**: Kenapa kita butuh Cargo?
-- **CH-02_Project_Structure**: Bedah `src/`, `target/`, dan `Cargo.lock`.
-- **CH-03_Dependency_Management**: Pengenalan awal `Cargo.toml`.
+## Daftar Isi
+1.  **CH-01_The_Manager**: Mengenal Cargo sebagai asisten pribadi developer.
+2.  **CH-02_Project_Creation**: Struktur folder standar dan rahasia `Cargo.toml`.
+3.  **CH-03_Standard_Workflow**: Siklus kerja `build`, `run`, dan `check`.
+4.  **CH-04_Release_Builds**: Mengoptimalkan aplikasi untuk kecepatan maksimal.
+5.  **CH-05_Cargo_Conventions**: Mengapa Cargo adalah "bahasa yang sama" bagi seluruh programmer Rust.
 
 ---
-*Kembali ke [Sub-Rak](../README.md)*
+[Pelacakan Status](./docs/status.md)

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect x="10" y="10" width="480" height="280" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Alur Kerja Rustup</text>
+
+  <rect x="190" y="55" width="120" height="40" rx="5" fill="#f9f" stroke="#333" />
+  <text x="250" y="80" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🌍 Rust Website</text>
+
+  <rect x="175" y="125" width="150" height="40" rx="5" fill="#f96" stroke="#333" />
+  <text x="250" y="150" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold">INSTALLER: rustup-init.exe</text>
+
+  <rect x="190" y="195" width="120" height="40" rx="20" fill="#fff" stroke="#333" />
+  <text x="250" y="220" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🔧 Pilihan</text>
+
+  <rect x="50" y="245" width="160" height="40" rx="5" fill="#bbf" stroke="#333" />
+  <text x="130" y="270" text-anchor="middle" font-family="Arial" font-size="8">1. Default (Stable Toolchain)</text>
+
+  <rect x="290" y="245" width="160" height="40" rx="5" fill="#eee" stroke="#333" />
+  <text x="370" y="270" text-anchor="middle" font-family="Arial" font-size="8">2. Custom (Path/Target)</text>
+
+  <path d="M 250 95 L 250 120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 250 165 L 250 190" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 190 215 L 130 240" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 310 215 L 370 240" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

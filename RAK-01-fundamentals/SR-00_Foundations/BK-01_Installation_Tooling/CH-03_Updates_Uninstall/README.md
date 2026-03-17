@@ -41,17 +41,7 @@ rustup self uninstall
 
 ## 🧭 Visualisasi: Siklus Hidup Toolchain
 
-```mermaid
-graph LR
-    A[Rilis 6 Mingguan] --> B{Update?}
-    B -->|Ya| C[rustup update]
-    B -->|Tidak| D[Tetap di Versi Lama]
-    C --> E[Fitur Baru & Perbaikan Bug]
-    E --> F[Produktivitas Meningkat]
-    
-    style C fill:#f96,stroke:#333
-    style F fill:#0f0,stroke:#333
-```
+![Toolchain Lifecycle](./assets/toolchain-lifecycle.svg)
 
 ---
 > [!TIP]

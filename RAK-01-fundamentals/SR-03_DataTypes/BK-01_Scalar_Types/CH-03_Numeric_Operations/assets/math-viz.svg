@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <rect x="10" y="10" width="480" height="230" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Pembagian: Integer vs Float</text>
+
+  <!-- Integer Case -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="180" height="80" rx="5" fill="#ffebee" stroke="#c62828" />
+    <text x="90" y="25" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Integer Division</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial" font-size="14" fill="#b71c1c">10 / 3 = 3</text>
+    <text x="90" y="70" text-anchor="middle" font-family="Arial" font-size="8" fill="#c62828">(Pecahan dibuang/Truncated)</text>
+  </g>
+
+  <!-- Float Case -->
+  <g transform="translate(270, 60)">
+    <rect x="0" y="0" width="180" height="80" rx="5" fill="#e8f5e9" stroke="#2e7d32" />
+    <text x="90" y="25" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Float Division</text>
+    <text x="90" y="50" text-anchor="middle" font-family="Arial" font-size="14" fill="#1b5e20">10.0 / 3.0 = 3.333...</text>
+    <text x="90" y="70" text-anchor="middle" font-family="Arial" font-size="8" fill="#2e7d32">(Akurasi Desimal Terjaga)</text>
+  </g>
+
+  <rect x="50" y="160" width="400" height="50" rx="5" fill="#fff9c4" stroke="#fbc02d" stroke-dasharray="5,5" />
+  <text x="250" y="185" text-anchor="middle" font-family="Arial" font-size="10" fill="#f57f17" font-weight="bold">⚠️ IMPORTANT ⚠️</text>
+  <text x="250" y="200" text-anchor="middle" font-family="Arial" font-size="9" fill="#f57f17">Keduanya harus bertipe sama. Rust tidak menjumlahkan i32 dan f64 otomatis.</text>
+</svg>

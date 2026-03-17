@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <rect x="10" y="10" width="380" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="200" y="30" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">Struktur Data (Stack vs Heap)</text>
+  
+  <rect x="30" y="50" width="130" height="120" rx="5" fill="#e1f5fe" stroke="#01579b" stroke-dasharray="5,5" />
+  <text x="95" y="70" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Stack Memory</text>
+  <rect x="40" y="85" width="110" height="70" rx="5" fill="#f96" stroke="#333" />
+  <text x="95" y="110" text-anchor="middle" font-family="Arial" font-size="10">👤 s: Sang Pemilik</text>
+  <text x="95" y="125" text-anchor="middle" font-family="Arial" font-size="9" font-style="italic">(Pointer, len, cap)</text>
+
+  <rect x="230" y="50" width="130" height="120" rx="5" fill="#fff9c4" stroke="#fbc02d" stroke-dasharray="5,5" />
+  <text x="295" y="70" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">Heap Memory</text>
+  <rect x="240" y="85" width="110" height="70" rx="5" fill="#bbf" stroke="#333" />
+  <text x="295" y="120" text-anchor="middle" font-family="Arial" font-size="10">📦 Isi Data: 'Hello'</text>
+
+  <path d="M 150 120 L 230 120" stroke="#333" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+  <text x="190" y="115" text-anchor="middle" font-family="Arial" font-size="9">Sertifikat</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

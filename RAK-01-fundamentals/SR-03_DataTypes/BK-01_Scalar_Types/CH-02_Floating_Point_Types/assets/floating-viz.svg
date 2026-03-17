@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="10" y="10" width="480" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Akurasi vs Memori (Floating-Point)</text>
+
+  <!-- f32 box -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#fce4ec" stroke="#c2185b" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold">f32</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial" font-size="9" fill="#c2185b">7 Digit Akurasi</text>
+  </g>
+
+  <!-- f64 box -->
+  <g transform="translate(260, 60)">
+    <rect x="0" y="0" width="180" height="80" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="2" />
+    <text x="90" y="35" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold">f64 (Default)</text>
+    <text x="90" y="60" text-anchor="middle" font-family="Arial" font-size="10" fill="#7b1fa2">15-17 Digit Akurasi</text>
+  </g>
+  
+  <text x="250" y="180" text-anchor="middle" font-family="Arial" font-size="9" fill="#666">"Semakin besar bit, semakin akurat perhitungannya."</text>
+</svg>

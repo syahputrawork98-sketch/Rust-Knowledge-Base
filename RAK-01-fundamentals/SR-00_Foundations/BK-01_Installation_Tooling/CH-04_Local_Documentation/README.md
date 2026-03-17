@@ -37,21 +37,7 @@ rustup doc --std
 
 ## 🗺️ Visualisasi: Alur Akses Offline
 
-```mermaid
-graph LR
-    User[Anda] -->|rustup doc| LocalPath[File Sistem Lokal]
-    LocalPath -->|Proses HTML| Browser[Browser Anda]
-    Browser -->|Ditampilkan| Content[Manual, API, & Book]
-    
-    subgraph Tanpa_Internet
-    LocalPath
-    Browser
-    Content
-    end
-    
-    style Content fill:#0f0,stroke:#333
-    style Browser fill:#f96,stroke:#333
-```
+![Offline Access](./assets/offline-access.svg)
 
 ---
 > [!TIP]

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <rect x="10" y="10" width="480" height="230" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Level "Kekakuan" Data</text>
+
+  <!-- Level 1: Mutable -->
+  <g transform="translate(50, 60)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#e8f5e9" stroke="#2e7d32" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold">let mut x = 5;</text>
+    <rect x="25" y="35" width="70" height="15" rx="3" fill="#2e7d32" />
+    <text x="60" y="46" text-anchor="middle" font-family="Arial" font-size="8" fill="white">🔓 Cair</text>
+  </g>
+
+  <!-- Level 2: Immutable -->
+  <g transform="translate(190, 60)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#e3f2fd" stroke="#1565c0" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold">let x = 5;</text>
+    <rect x="25" y="35" width="70" height="15" rx="3" fill="#1565c0" />
+    <text x="60" y="46" text-anchor="middle" font-family="Arial" font-size="8" fill="white">🔒 Beku</text>
+  </g>
+
+  <!-- Level 3: Constant -->
+  <g transform="translate(330, 60)">
+    <rect x="0" y="0" width="120" height="60" rx="5" fill="#eceff1" stroke="#37474f" stroke-width="2" />
+    <text x="60" y="25" text-anchor="middle" font-family="Arial" font-size="9" font-weight="bold">const X: u32 = 5;</text>
+    <rect x="25" y="35" width="70" height="15" rx="3" fill="#37474f" />
+    <text x="60" y="46" text-anchor="middle" font-family="Arial" font-size="8" fill="white">🗿 Batu</text>
+  </g>
+
+  <text x="250" y="160" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Semakin ke kanan, semakin kaku dan efisien (Compile-time).</text>
+
+  <path d="M 50 180 L 450 180" stroke="#ccc" stroke-width="1" stroke-dasharray="5,5" />
+  <text x="250" y="210" text-anchor="middle" font-family="Arial" font-size="9" fill="#999" font-style="italic">"Constants are always immutable."</text>
+</svg>

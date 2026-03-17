@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+  <rect x="10" y="10" width="480" height="180" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Kekuatan Indentasi</text>
+
+  <g transform="translate(30, 60)">
+    <rect x="0" y="0" width="200" height="100" rx="5" fill="#fbb" stroke="#c62828" />
+    <text x="10" y="20" font-family="Courier New" font-size="10" fill="#b71c1c">❌ Berantakan</text>
+    <text x="10" y="45" font-family="Courier New" font-size="8">fn main(){println!("Hi");}</text>
+  </g>
+
+  <g transform="translate(270, 60)">
+    <rect x="0" y="0" width="200" height="100" rx="5" fill="#bfb" stroke="#2e7d32" />
+    <text x="10" y="20" font-family="Courier New" font-size="10" fill="#1b5e20">💎 Idiomatic</text>
+    <text x="10" y="40" font-family="Courier New" font-size="8">fn main() {</text>
+    <text x="25" y="55" font-family="Courier New" font-size="8" fill="#2e7d32" font-weight="bold">....</text>
+    <text x="45" y="55" font-family="Courier New" font-size="8">println!("Hi");</text>
+    <text x="10" y="70" font-family="Courier New" font-size="8">}</text>
+  </g>
+
+  <text x="250" y="180" text-anchor="middle" font-family="Arial" font-size="10" fill="#666">Indentasi 4 spasi adalah standar kerajaan Rust.</text>
+</svg>

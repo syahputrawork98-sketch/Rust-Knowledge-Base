@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <rect x="10" y="10" width="480" height="230" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Siklus Hidup Toolchain</text>
+
+  <rect x="30" y="60" width="120" height="50" rx="5" fill="#f3e5f5" stroke="#7b1fa2" />
+  <text x="90" y="90" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🛠️ Toolchain Aktif</text>
+
+  <rect x="190" y="60" width="120" height="50" rx="5" fill="#e1f5fe" stroke="#01579b" />
+  <text x="250" y="85" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">📥 Download</text>
+  <text x="250" y="100" text-anchor="middle" font-family="Arial" font-size="8">&amp; Patching</text>
+
+  <rect x="350" y="60" width="120" height="50" rx="5" fill="#9f9" stroke="#333" />
+  <text x="410" y="90" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🚀 Update OK</text>
+
+  <rect x="190" y="160" width="120" height="50" rx="5" fill="#f66" stroke="#333" />
+  <text x="250" y="190" text-anchor="middle" font-family="Arial" font-size="10" fill="white" font-weight="bold">🔥 UNINSTALL</text>
+
+  <path d="M 150 85 L 190 85" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 310 85 L 350 85" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <path d="M 90 110 C 90 185, 180 185, 190 185" stroke="#f66" stroke-width="2" fill="none" marker-end="url(#arrowhead)" />
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>

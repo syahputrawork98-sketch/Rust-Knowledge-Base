@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <rect x="10" y="10" width="480" height="280" rx="10" fill="#fdfdfd" stroke="#333" />
+  <text x="250" y="35" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold">Siklus Hidup Pengembangan</text>
+
+  <rect x="190" y="55" width="120" height="40" rx="5" fill="#eee" stroke="#333" />
+  <text x="250" y="80" text-anchor="middle" font-family="Arial" font-size="10">✍️ Tulis Kode</text>
+
+  <path d="M 250 95 L 250 120" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+
+  <rect x="180" y="120" width="140" height="50" rx="25" fill="#f96" stroke="#333" />
+  <text x="250" y="150" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">💻 cargo check</text>
+
+  <path d="M 180 145 C 100 145, 100 80, 190 80" stroke="#f66" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" />
+  <text x="110" y="110" text-anchor="middle" font-family="Arial" font-size="8" fill="#f66">Error</text>
+
+  <path d="M 250 170 L 250 195" stroke="#333" stroke-width="2" marker-end="url(#arrowhead)" />
+  <text x="260" y="185" font-family="Arial" font-size="8" fill="#2e7d32">Lolos</text>
+
+  <rect x="180" y="195" width="140" height="50" rx="5" fill="#9f9" stroke="#333" />
+  <text x="250" y="225" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold">🚀 cargo run</text>
+
+  <path d="M 320 220 C 400 220, 400 80, 310 80" stroke="#bbf" stroke-width="1.5" fill="none" marker-end="url(#arrowhead)" />
+  <text x="390" y="150" text-anchor="middle" font-family="Arial" font-size="8" fill="#01579b">Selesai / Bug?</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333" />
+    </marker>
+  </defs>
+</svg>
