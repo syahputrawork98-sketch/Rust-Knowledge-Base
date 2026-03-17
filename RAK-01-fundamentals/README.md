@@ -18,9 +18,9 @@ Progres detil setiap Sub-Rak dapat dipantau di: **[Status RAK-01](./docs/status.
 ## Sub-Rak (Sub-Racks)
 - **SR-00_Foundations**: Setup toolchain & Hello World (Fondasi ekosistem).
 - **SR-02_Variables_Mutability**: Variabel & Shadowing (Aturan penamaan data).
-- **SR-03_DataTypes**: Scalar & Compound Types (Memahami bentuk data).
+- **SR-03_Data_Types**: Scalar & Compound Types (Memahami bentuk data).
 - **SR-04_Functions**: Sintaks fungsi & Expressions (Modularisasi kode).
-- **SR-05_ControlFlow**: Kondisional & Loops (Alokasi logika program).
+- **SR-05_Control_Flow**: Kondisional & Loops (Alokasi logika program).
 - **SR-06_Ownership_Basics**: Ownership, Borrowing, Lifetimes (Prinsip Utama Rust).
 
 ---
