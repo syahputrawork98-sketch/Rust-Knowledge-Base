@@ -1,9 +1,22 @@
 # SR-01_Memory_Management (The Heart)
 
-Sub-rak ini membahas mekanisme paling unik dan krusial di Rust: **Memory Management**. Kita akan belajar bagaimana Rust menjamin keamanan memori tanpa bantuan Garbage Collector.
+> **"Kedaulatan Memori Tanpa Penjaga Otomatis."**
 
-## Buku (Books) dalam Sub-Rak ini
-1.- **BK-01_Ownership_Model**: 🟢 Published (100%) - Aturan main memori Rust.
+Inilah **Jantung (The Heart)** dari Rust. Jika Anda bertanya apa yang membuat Rust bersinar di antara bahasa pemrograman lainnya, jawabannya ada di sini. Kita akan mempelajari bagaimana Rust menjamin keamanan memori tanpa bantuan Garbage Collector.
+
+---
+
+## 🫀 Tentang Sub-Rak Ini (About)
+
+`SR-01_Memory_Management` adalah tempat di mana kita belajar tentang **Trilogi Keselamatan Memori**. Di sini, kita tidak hanya belajar sintaks, tapi belajar tentang hukum alam memori komputer.
+
+- **Jiwa Sub-Rak**: Memahami transisi dari "Manajemen Manual yang Berbahaya" ke "Sistem Kepemilikan yang Ketat tapi Aman".
+- **Filosofi**: *"Keamanan tidak harus mengorbankan kecepatan."*
+
+---
+
+## 📚 Buku (Books) dalam Sub-Rak ini
+- **BK-01_Ownership_Model**: 🟢 Published (100%) - Aturan main memori Rust.
 - **BK-02_Borrowing_Slices**: 🟢 Published (100%) - Berbagi data tanpa pindah tangan.
 - **BK-03_Lifetimes**: 🟢 Published (100%) - Menjamin keabsahan referensi dalam waktu.
 
