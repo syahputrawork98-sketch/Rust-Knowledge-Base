@@ -15,7 +15,11 @@ Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan pandua
 ### 2. Cetak Biru (Blueprints)
 - **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari ekosistem Rust ke dalam struktur 10-Rack.
 
-### 3. Narasi & Esensi
+### 3. Spesialisasi (Specializations)
+- **[RAK-11: Low-Level Systems](../RAK-11-LOW-LEVEL-SYSTEMS/README.md)**: Rust untuk pengembangan kernel dan sistem performa tinggi.
+- **[RAK-12: High-Performance Wasm](../RAK-12-HIGH-PERFORMANCE-WASM/README.md)**: WebAssembly dengan Rust untuk web modern.
+
+### 4. Narasi & Esensi
 - **[Rust Origins](./rust-origins.md)**: Jejak langkah dari proyek personal Mozilla hingga standar kernel Linux.
 - **[Rust History](./rust-history.md)**: Sejarah kelahiran dan evolusi Rust Edition.
 - **[Philosophy & Essence](./rust-philosophy.md)**: Membedah Ownership, Borrowing, dan "Fearless Concurrency".
