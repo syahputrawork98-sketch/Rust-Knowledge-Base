@@ -16,8 +16,8 @@ Pusat dokumentasi ini menyimpan seluruh cetak biru, standar kualitas, dan pandua
 - **[Repository Plan](./repository-plan/README.md)**: Dekomposisi total dari ekosistem Rust ke dalam struktur 10-Rack.
 
 ### 3. Spesialisasi (Specializations)
-- **[RAK-11: Low-Level Systems](../RAK-11-LOW-LEVEL-SYSTEMS/README.md)**: Rust untuk pengembangan kernel dan sistem performa tinggi.
-- **[RAK-12: High-Performance Wasm](../RAK-12-HIGH-PERFORMANCE-WASM/README.md)**: WebAssembly dengan Rust untuk web modern.
+- **[RAK-11: Low-Level Systems](../RAK-11-LOW-LEVEL-SYSTEMS/README.md)**: Keamanan memori (Zero-cost abstraction) untuk pengembangan kernel dan sistem performa tinggi.
+- **[RAK-12: High-Performance Wasm](../RAK-12-HIGH-PERFORMANCE-WASM/README.md)**: WebAssembly dengan Rust untuk menghadirkan performa bahasa sistem ke dalam ekosistem web modern.
 
 ### 4. Narasi & Esensi
 - **[Rust Origins](./rust-origins.md)**: Jejak langkah dari proyek personal Mozilla hingga standar kernel Linux.
