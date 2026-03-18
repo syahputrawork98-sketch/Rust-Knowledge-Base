@@ -27,6 +27,17 @@ Guna memudahkan navigasi, setiap tingkatan direktori **WAJIB** memiliki file `RE
 
 ---
 
+## Karakteristik & Autentisitas (Branding)
+
+Untuk menjaga "nyawa" dan keunikan bahasa Rust, setiap konten wajib mengikuti pedoman berikut:
+
+- **Analogi Utama**: **Penjaga Tanpa Rasa Takut (The Fearless Guardian)**.
+- **Tone Suara**: **Disiplin, Tegas, dan Berdaya**. Rust tidak berkompromi soal keamanan; tulislah narasi yang memberikan rasa percaya diri kepada pembaca melalui aturan yang ketat.
+- **Filosofi Penulisan**: Fokus pada *Ownership, Safety,* dan *Zero-Cost Abstractions*. Jelaskan mengapa "berantem" dengan compiler di awal adalah sebuah investasi keamanan jangka panjang.
+- **Visual**: Gunakan estetika yang "industrial" dan kokoh, dengan diagram yang memvisualisasikan memori dan *borrow checker*.
+
+---
+
 ## Kriteria "Gold Standard" (100% Complete)
 
 Sebuah unit dianggap **Completed** jika memenuhi 4 pilar kualitas:
