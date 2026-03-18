@@ -13,4 +13,11 @@ Kekuatannya terletak pada kemampuan memberikan kontrol rendah (Low-level) tanpa 
 3. **No Toolkit needed**: Tidak butuh Garbage Collector atau Runtime besar.
 
 ---
+
+## 🌐 Architectural Nexus (Jembatan Master Plan)
+Materi di Rak ini terhubung langsung dengan komponen lain dalam ekosistem [Master Plan Senior](../../catatan/Master-Plan-Senior.md):
+- **Kernel & OS**: Hubungan intensif dengan [Server Runtime Knowledge Base](../../catatan/02-Execution-Hubs/Server-Runtime-Knowledge-Base.md).
+- **Embedded Ops**: Implementasi di dunia [Infrastructure Hubs](../../catatan/06-Infrastructure-Hubs/Docker-K8s-Container-Lab.md).
+
+---
 *Kembali ke [Documentation Hub](../docs/README.md)*
