@@ -1,40 +1,46 @@
-# Arsitektur & Hierarki (PPM)
+# Arsitektur & Hierarki Struktur (Rust Edition)
 
-Sistem **PPM (Perpustakaan Pribadi Modular)** menggunakan hierarki 5-level untuk memastikan setiap informasi memiliki tempat yang logis dan mudah ditemukan.
+Proyek **Rust Knowledge Base** disusun dengan analogi **The Rust Bookshelf (Rak Buku Rust)** untuk mentransformasi dokumentasi teknis (seperti *The Rust Programming Language*, *The Reference*, & *Rust by Example*) menjadi unit pelajaran yang sistematis.
 
-## 1. Rak (Rack) - Level 1
-Kelompok tema besar bahasa Rust.
-- **Folder**: `RAK-01-fundamentals`, `RAK-02-advanced`, dsb.
-- **Wajib**: `README.md` yang merangkum isi Rak.
+## Analogi Struktur
 
-## 2. Sub-Rak (Sub-Rack) - Level 2
-Pembagian granular berdasarkan domain teknis (misal: Memory Safety, Types, Concurrency).
-- **Folder**: `SR-01_MemorySafety`, `SR-02_Concurrency`, dsb.
-- **Wajib**: `README.md` yang mencantumkan daftar Buku di dalamnya.
+Berikut adalah pemetaannya ke dalam direktori bertingkat:
 
-## 3. Buku (Book) - Level 3
-Unit pembelajaran tematik dalam satu Sub-Rak.
-- **Folder**: `BK-01_OwnershipModel`, `BK-02_BorrowingMechanics`, dsb.
-- **Wajib**: `README.md` sebagai daftar isi Bab.
-
-## 4. Bab (Chapter) - Level 4
-Unit atomik dari materi.
-- **Folder**: `CH-01_Overview`, `CH-02_DeepDive`, dsb.
-- **Wajib**: `README.md` (Materi) dan folder `examples/` (Kode).
-
-## 5. Section - Level 5
-Sub-topik di dalam satu README Bab (Header H2 atau H3).
-- Memberikan detail spesifik tentang mekanisme tertentu.
+| Tingkatan | Analogi | Contoh Direktori | Keterangan |
+| :--- | :--- | :--- | :--- |
+| **Level 1** | **Ruang Baca (Library)** | `/` (root) | Seluruh sistem proyek (Rust Engine). |
+| **Level 2** | **Rak (Shelf)** | `RAK-01-fundamentals/` | Pengelompokan besar domain ilmu (10 RAK). |
+| **Level 3** | **Sub-Rak (Sub-shelf)** | `SR-01_Foundations/` | Grup materi berbasis area spesifik. |
+| **Level 4** | **Buku (Book)** | `BK-01_Ownership/` | Koleksi bab yang membentuk satu topik besar. |
+| **Level 5** | **Bab (Chapter)** | `CH-01_Overview/` | Unit terkecil wajib (Folder Bab). |
 
 ---
 
-## 📏 Kaidah Granularitas Berbasis Sumber (Source-Driven)
-Untuk memastikan Hub ini "tidak setengah-setengah" namun tetap efisien, berlaku aturan:
+## Aturan Pewajiban `README.md`
 
-1.  **Tanpa Batas Kaku**: Tidak ada jumlah tetap untuk Rak, Sub-Rak, Buku, atau Bab. 
-2.  **Patokan Adalah Sumber**: Struktur harus mencerminkan kedalaman sumber asli (*The Rust Book*, *The Reference*, dsb).
-3.  **Dekomposisi Maksimal**: Jika materi di sumber sangat padat/panjang, **WAJIB** dipecah menjadi banyak Bab atau Buku agar mudah dicerna (Modular).
-4.  **Konsolidasi Efisien**: Jika materi di sumber sangat sedikit/singkat, beberapa poin bisa digabungkan ke dalam **satu Bab** yang sama untuk menjaga alur pembacaan.
+Guna memudahkan navigasi, setiap tingkatan direktori **WAJIB** memiliki file `README.md`:
+
+- **Root (`/README.md`)**: Visi keseluruhan (The Fearless Systems Architect 🦀).
+- **Rak (`RAK-XX/README.md`)**: Tujuan dan cakupan Rak tersebut.
+- **Buku (`BK-XX/README.md`)**: Sinopsis dan orientasi filosofis materi.
+- **Bab (`CH-XX/README.md`)**: Materi inti (PPM Stage 1).
 
 ---
-*Back to [Structure Guide](../structure-guide.md)*
+
+## Kriteria "Gold Standard" (100% Complete)
+
+Sebuah unit dianggap **Completed** jika memenuhi 4 pilar kualitas:
+
+> [!IMPORTANT]
+> **Pilar 1: Documentation-Sync Accurate**  
+> Konten diverifikasi terhadap dokumentasi resmi Rust (Target di kolom Spec-Sync).
+>
+> **Pilar 2: Functional Examples**  
+> Minimal 1 contoh kode (`.rs`) di folder `examples/`.  
+> *Catatan*: Pastikan kode mengikuti *idiomatic Rust*.
+>
+> **Pilar 3: Mental Model Visual**  
+> Minimal 1 diagram (Mermaid/SVG) di folder `assets/`.
+>
+> **Pilar 4: Narrative Excellence**  
+> Penjelasan menggunakan standar PPM V4: Manusiawi, ada analogi (misal: "Borrow Checker as a Librarian"), dan menggunakan **Bahasa Arsitek**.
