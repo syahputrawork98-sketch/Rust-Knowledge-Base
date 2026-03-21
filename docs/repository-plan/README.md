@@ -1,49 +1,43 @@
-# Rust Knowledge Base: 6-Rack Universal Plan
+# Rust Knowledge Base: Universal Deconstruction Plan
 
-> **Status**: Universal Standard (6-Rack Architecture)
-> **Last Updated**: 2026-03-20
-> **Blueprint Mirror**: [doc.rust-lang.org](https://doc.rust-lang.org/)
+> **Status**: Gold Standard (6-Level Hierarchy)
+> **Last Updated**: 2026-03-22
 
-Rencana ini menggunakan **6-Rack Universal Architecture** untuk mentransformasi dokumentasi resmi Rust menjadi unit pelajaran yang manusiawi.
-
----
-
-## 🏗 Struktur 6-Rack Universal
-
-### 1. RAK-01-foundation (Entry Point)
-*Mirror: Getting Started, The Rust Programming Language (The Book).*
-- **Goal**: Membangun fondasi kuat bagi para Rustaceans (Soul of Rust).
-
-### 2. RAK-02-evolution (History & Future)
-*Mirror: The Edition Guide (2015-2024).*
-- **Goal**: Memahami evolusi bahasa dan perubahan breaking di setiap edisi.
-
-### 3. RAK-03-core-spec (The Internal Logic)
-*Mirror: Rust Reference & The Nomicon (Unsafe).*
-- **Goal**: Menguasai aturan formal bahasa dan mekanika memori tingkat rendah.
-
-### 4. RAK-04-tooling (The Workshop)
-*Mirror: The Cargo Book, rustc, rustdoc, & Toolchain (Clippy).*
-- **Goal**: Penguasaan alur kerja kompilasi, dokumentasi, dan kualitas kode.
-
-### 5. RAK-05-ecosystem (The Real World)
-*Mirror: Standard Library API & Rust by Example.*
-- **Goal**: Implementasi praktis menggunakan tipe data standar dan pustaka ekosistem.
-
-### 6. RAK-06-specialization (The Cutting Edge)
-*Mirror: Specialized Books (WASM, Embedded, CLI).*
-- **Goal**: Penerapan Rust di domain khusus dan optimasi tingkat lanjut.
+Rencana ini menggunakan **Unified Gold Standard** untuk mentransformasi dokumen teknis menjadi unit pelajaran yang presisi melalui hirarki **6-Level Depth**.
 
 ---
 
-## 📜 Hierarki Kedalaman (The 5-Level Depth)
+## 1. Arsitektur 6-Rak (The Universe Blueprint)
 
-Setiap Rak mengikuti hierarki standar:
-1. **RAK** (Domain)
-2. **SR** (Track)
-3. **BK** (Book)
-4. **CH** (Chapter)
-5. **Section** (README/Content)
+### I. RAK-01-anatomy (The Landscape)
+Narasi filosofi desain sistem yang aman (Memory Safety without GC), sejarah berdirinya, dan batasan komprominya (The Triangle of Trade-offs).
+
+### II. RAK-02-foundation (The Standard Book)
+Fondasi mutlak mempelajari Rust (Sintaks, Tipe Data, Enums, Pattern Matching) - turunan langsung dari *The Rust Programming Language (The Book)*.
+
+### III. RAK-03-evolution (History & Future)
+Kronologi rilis, perpindahan Edition (2015, 2018, 2021), dan proposal masa depan.
+
+### IV. RAK-04-core-mechanics (The Internal Logic)
+Mekanika Paling Mendalam: *Ownership Model*, *Borrow Checker*, *Lifetimes*, dan *Traits*. 
+
+### V. RAK-05-ecosystem (The Environment)
+Menjelajahi Ekosistem Rust: `std` vs `core` (no_std), Cargo Toolchain, dan Crates.io.
+
+### VI. RAK-06-compiler (The Machine Room)
+Deep dive super teknikal ke dalam **`rustc`** (Rust Compiler), parsing (HIR/MIR), representasi tipe, dan integrasi dengan LLVM *backend*.
 
 ---
-*Log Perubahan: Migrasi dari 10-Rack ke 6-Rack Universal pada 2026-03-20.*
+
+## 2. Hirarki Kedalaman (Digital Mirroring)
+
+Setiap materi didekonstruksi hingga 6 level kedalaman jika diperlukan:
+1. **Root** (Pusat Hub)
+2. **RAK** (Domain)
+3. **SR** (Track)
+4. **BK** (Book)
+5. **CH** (Chapter)
+6. **SEC** (Section)
+
+---
+*Referensi Utama: Unified Gold Standard v1 (docs/standards).*
