@@ -1,22 +1,22 @@
-# Panduan Estetika Visual (Rust Edition)
+# Panduan Estetika Visual (JS Edition)
 
-Visualisasi harus terasa industrial, kokoh, dan teknis.
+Mencerminkan energi dan interaktivitas web.
 
 ## 1. Skema Warna (Branding)
-- **Primary Color**: `#CE412B` (Ferris Orange / Rust Red).
-- **Secondary Color**: `#DEA584` (Soft Rust).
-- **Accent**: `#252525` (Steel Gray).
+- **Primary Color**: `#F7DF1E` (JS Yellow).
+- **Secondary Color**: `#000000` (Classic Black).
+- **Action Color**: `#61DAFB` (React Cyan - optional for frameworks).
 
 ## 2. Standar Mermaid
-Diagram harus menunjukkan batasan dan alur yang jelas:
+Diagram harus terlihat dinamis dan mengalir:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#CE412B', 'primaryTextColor': '#fff'}}}%%
-graph LR
-    A[Owner] -- Move --> B[New Owner]
-    A -- Borrow --> C[Reference]
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F7DF1E', 'primaryTextColor': '#000'}}}%%
+graph TD
+    A[Event] --> B{Event Loop}
+    B -->|Task| C[Callback Queue]
 ```
 
 ## 3. Simbol Visual
-- **Roda Gigi/Gear**: Ikon ornamen untuk menunjukkan kekuatan sistem bawah tanah.
-- **Warna Merah**: Menandakan batasan *Borrow Checker*.
-- **Warna Hijau**: Menandakan akses memori yang aman.
+- **Lingkaran Berputar**: Mewakili **Event Loop**.
+- **Warna Kuning**: Digunakan untuk elemen yang bersifat *blocking*.
+- **Warna Transparan**: Digunakan untuk operasi *Background/Asynchronous*.

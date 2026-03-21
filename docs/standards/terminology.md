@@ -1,20 +1,27 @@
-# Panduan Terminologi (Rust Edition)
+# Panduan Terminologi (JS Edition)
 
-Mencerminkan disiplin, keamanan, dan performa tanpa rasa takut.
+Menangkap dinamisme dan fleksibilitas web melalui bahasa yang tepat sesuai dengan **Unified Gold Standard**.
 
 ## 1. Aturan Penulisan Istilah
-- **Safety First**: Fokus pada istilah yang berkaitan dengan kepemilikan dan keamanan data.
-- **No Compromise**: Tidak ada jalan pintas; jelaskan aturan compiler dengan tegas.
+- **Kinetic Focus**: Gunakan kata kerja aktif (e.g., *Invoked*, *Dispatched*, *Transmuted*).
+- **Ecma-Sync**: Seluruh istilah teknis merujuk pada standar ESNext.
 
 ## 2. Senior vs Basic Terms
+Gunakan terminologi profesional untuk akurasi teknis:
+- **Closures** (bukan sekadar "fungsi dalam fungsi").
+- **Non-blocking I/O** (bukan sekadar "tunggu data").
+- **Prototypal Inheritance** (bukan "warisan biasa").
 
-| Basic Term | Senior Terminology | Konteks |
-| :--- | :--- | :--- |
-| Aturan pinjam | **Borrowing & Lifetimes** | Manajemen memori kompilasi. |
-| Konkurensi aman | **Fearless Concurrency** | Sifat Thread-safety Rust. |
-| Fitur tambahan | **Traits** | Abstraksi perilaku objek. |
-| Kepemilikan data | **Ownership** | Konsep dasar manajemen memori. |
+## 3. Hierarchical Terminology (6-Level Standard)
 
-## 3. Metode Analogi
-- **The Fearless Guardian**: Bayangkan Compiler Rust sebagai penjaga gerbang yang tegas namun baik hati demi keselamatan Anda.
-- **Buku Catatan Pustakawan**: Anggap *Borrow Checker* sebagai pustakawan yang mencatat siapa yang meminjam buku dan kapan harus dikembalikan.
+| Term | Level | Analogi | Deskripsi |
+| :--- | :--- | :--- | :--- |
+| **Root** | 1 | Hub | Pusat navigasi utama repositori. |
+| **RAK (Rack)**| 2 | Domain | Pengelompokan besar area ilmu (e.g., JavaScript). |
+| **SR (Sub-Rack)**| 3 | Track | Jalur spesifik di dalam domain (e.g., Get Started). |
+| **BK (Book)** | 4 | Koleksi | Kumpulan bab yang membentuk satu modul utuh. |
+| **CH (Chapter)**| 5 | Materi | Unit pengerjaan materi inti (Stage 1-4 PPM). |
+| **SEC (Section)**| 6 | Detil | Granulitas terdalam untuk membedah sub-materi. |
+
+---
+*Referensi: [Unified Gold Standard](../../../brain/931398eb-3011-4b69-bb8c-e94cd60f9e78/unified_gold_standard_v1.md)*
