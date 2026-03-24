@@ -1,22 +1,25 @@
-# Panduan Estetika Visual (JS Edition)
+# Panduan Estetika Visual (Rust Edition)
 
-Mencerminkan energi dan interaktivitas web.
+Mencerminkan kekuatan, keamanan, dan presisi sistem.
 
 ## 1. Skema Warna (Branding)
-- **Primary Color**: `#F7DF1E` (JS Yellow).
-- **Secondary Color**: `#000000` (Classic Black).
-- **Action Color**: `#61DAFB` (React Cyan - optional for frameworks).
+- **Primary Color**: `#DEA584` (Rust Orange).
+- **Secondary Color**: `#282C34` (Deep Charcoal / System Dark).
+- **Action Color**: `#A72145` (Compiler Crimson - for errors/warnings).
 
 ## 2. Standar Mermaid
-Diagram harus terlihat dinamis dan mengalir:
+Diagram harus terlihat kokoh dan terstruktur:
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#F7DF1E', 'primaryTextColor': '#000'}}}%%
-graph TD
-    A[Event] --> B{Event Loop}
-    B -->|Task| C[Callback Queue]
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#DEA584', 'primaryTextColor': '#000'}}}%%
+graph LR
+    A[Data] -->|Ownership Move| B[New Owner]
+    B -->|Borrow| C[Reference]
 ```
 
 ## 3. Simbol Visual
-- **Lingkaran Berputar**: Mewakili **Event Loop**.
-- **Warna Kuning**: Digunakan untuk elemen yang bersifat *blocking*.
-- **Warna Transparan**: Digunakan untuk operasi *Background/Asynchronous*.
+- **Passport/Stamp**: Mewakili **Ownership**.
+- **Warna Oranye**: Digunakan untuk elemen data yang valid dan aman.
+- **Warna Merah/Crimson**: Digunakan untuk elemen **Unsafe** atau **Compile Error** lab.
+
+---
+*Referensi: [Architecture](./architecture.md)*

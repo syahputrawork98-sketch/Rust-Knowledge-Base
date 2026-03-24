@@ -1,19 +1,19 @@
 # Rust Knowledge Base: Universal Deconstruction Plan
 
-> **Status**: Gold Standard (6-Level Hierarchy)
-> **Last Updated**: 2026-03-22
+> **Status**: Gold Standard (7-Level Hierarchy)
+> **Target**: 7-RAK Universal Architecture
 
-Rencana ini menggunakan **Unified Gold Standard** untuk mentransformasi dokumen teknis menjadi unit pelajaran yang presisi melalui hirarki **6-Level Depth**.
+Rencana ini menggunakan **Unified Gold Standard (PPM V4)** untuk mentransformasi dokumen teknis menjadi unit pelajaran yang presisi.
 
 ---
 
-## 1. Arsitektur 6-Rak (The Universe Blueprint)
+## 1. Arsitektur 7-Rak (The Universe Blueprint)
 
 ### I. RAK-01-anatomy (The Landscape)
-Narasi filosofi desain sistem yang aman (Memory Safety without GC), sejarah berdirinya, dan batasan komprominya (The Triangle of Trade-offs).
+Narasi filosofi desain (Memory Safety without GC), sejarah, dan batasan kompromi (The Triangle of Trade-offs).
 
 ### II. RAK-02-foundation (The Standard Book)
-Fondasi mutlak mempelajari Rust (Sintaks, Tipe Data, Enums, Pattern Matching) - turunan langsung dari *The Rust Programming Language (The Book)*.
+Fondasi mutlak mempelajari Rust (Sintaks, Tipe Data, Enums, Pattern Matching) - turunan langsung dari *The Rust Programming Language*.
 
 ### III. RAK-03-evolution (History & Future)
 Kronologi rilis, perpindahan Edition (2015, 2018, 2021), dan proposal masa depan.
@@ -22,16 +22,19 @@ Kronologi rilis, perpindahan Edition (2015, 2018, 2021), dan proposal masa depan
 Mekanika Paling Mendalam: *Ownership Model*, *Borrow Checker*, *Lifetimes*, dan *Traits*. 
 
 ### V. RAK-05-ecosystem (The Environment)
-Menjelajahi Ekosistem Rust: `std` vs `core` (no_std), Cargo Toolchain, dan Crates.io.
+Menjelajahi Ekosistem Rust: `std` vs `core`, Cargo Toolchain, dan Crates.io.
 
-### VI. RAK-06-compiler (The Machine Room)
-Deep dive super teknikal ke dalam **`rustc`** (Rust Compiler), parsing (HIR/MIR), representasi tipe, dan integrasi dengan LLVM *backend*.
+### VI. RAK-06-the-underworld (The Machine Room)
+Deep dive ke *Unsafe Rust*, *FFI*, *Raw Pointers*, dan *Memory Layout*.
+
+### VII. RAK-07-specialization (The Cutting Edge)
+Implementasi domain spesifik: *Wasm*, *Async Rust*, dan *Embedded Development*.
 
 ---
 
 ## 2. Hirarki Kedalaman (Digital Mirroring)
 
-Setiap materi didekonstruksi hingga 6 level kedalaman jika diperlukan:
+Setiap materi didekonstruksi hingga 6 level kedalaman:
 1. **Root** (Pusat Hub)
 2. **RAK** (Domain)
 3. **SR** (Track)
@@ -40,4 +43,4 @@ Setiap materi didekonstruksi hingga 6 level kedalaman jika diperlukan:
 6. **SEC** (Section)
 
 ---
-*Referensi Utama: Unified Gold Standard v1 (docs/standards).*
+*Referensi Utama: [Architecture Standards](../standards/architecture.md).*

@@ -17,12 +17,12 @@ Semua pekerjaan wajib merujuk secara mutlak pada dokumen standar di folder `docs
 
 ---
 
-## 🏛️ 2. Ringkasan Arsitektur (6-Rak Universal)
+## 🏛️ 2. Ringkasan Arsitektur (7-Rak Universal)
 *(Berdasarkan `architecture.md` & `conventions.md`)*
 - **Hierarki Mutlak**: Level 1 (Root) > Level 2 (Rak) > Level 3 (Sub-Rak) > Level 4 (Buku) > Level 5 (Bab) > Level 6 (Section).
 - **Struktur Tiga Pilar**: Setiap target materi (Folder Bab/Section) **WAJIB** berisi:
   1. `README.md` (Materi inti)
-  2. `assets/` (Untuk menaruh struktur Visualisasi Mermaid/SVG)
+  2. `assets/` (Visualisasi Mermaid/SVG)
   3. `examples/` (Direktori kode lab fungsional `.rs`)
 
 ---
