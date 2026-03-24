@@ -1,23 +1,24 @@
-# Rak 12: High-Performance Wasm
+# SR-02-wasm-bridge (The Web Frontier)
 
-Membawa performa bahasa sistem (Rust) ke dalam ekosistem Web via WebAssembly.
+> **"Membawa Kekuatan Sistem ke dalam Browser melalui WebAssembly."**
 
-## Struktur Sub-Rak
-- **[SR-01-WASM-BRIDGE](./SR-01-WASM-BRIDGE/README.md)**: Komunikasi data antara JS/TS dan Rust Wasm.
-- **[SR-02-GRAPHICS-ENGINE](./SR-02-GRAPHICS-ENGINE/README.md)**: Mengolah WebGL/WebGPU dengan Rust.
+Sub-Rak ini membedah bagaimana Rust digunakan untuk membangun aplikasi web performa tinggi dengan mengompilasi kode menjadi binary Wasm yang efisien.
 
-## Why Rust for Wasm?
-Rust adalah bahasa yang paling dicintai untuk WebAssembly karena:
-1. **Tooling Terdepan**: Ecosystem `wasm-pack` adalah yang terbaik di kelasnya.
-2. **Predictable Performance**: Tidak ada jeda *Garbage Collection* di sisi klien.
-3. **Shared Logic**: Logika backend Rust bisa dipakai di frontend secara utuh.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
----
+### BK-01_Wasm_Toolchain
+Persiapan lingkungan pengembangan WebAssembly.
+- **CH-01_Wasm_Pack**: Menggunakan toolchain standar industri untuk binari web.
+- **CH-02_Wasm_Bindgen**: Komunikasi tingkat tinggi antara Rust dan JavaScript.
 
-## 🌐 Architectural Nexus (Jembatan Master Plan)
-Materi di Rak ini terhubung langsung dengan komponen lain dalam ekosistem [Master Plan Senior](../../catatan/Master-Plan-Senior.md):
-- **Wasm Frontend**: Lihat [Rust WASM UI Lab](../../catatan/03-Digital-UI-Hubs/Rust-WASM-UI-Lab.md) untuk implementasi UI.
-- **Client Runtime**: Hubungan performa dengan [Browser Runtime Knowledge Base](../../catatan/02-Execution-Hubs/Browser-Runtime-Knowledge-Base.md).
+### BK-02_Shared_Mem_Graphics
+Optimasi intensif di sisi klien.
+- **CH-01_Linear_Memory_Access**: Berbagi memori secara efisien antar JS dan Wasm.
+- **CH-02_Canvas_WebGL**: Merender grafis menggunakan Rust di web.
 
 ---
-*Kembali ke [Documentation Hub](../docs/README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-07-specialization](../README.md)*

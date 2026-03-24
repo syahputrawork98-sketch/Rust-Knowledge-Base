@@ -1,19 +1,24 @@
-# RAK-07-meta-programming (The Factory)
+# SR-03-meta-programming (The Automator)
 
-Rak ini membahas teknik menulis kode yang menghasilkan kode lain, memungkinkan abstraksi tingkat tinggi.
+> **"Automatisasi Kode dengan Macros Berbagai Level."**
 
-## Fokus Pembelajaran
-- **Declarative Macros**: `macro_rules!`.
-- **Procedural Macros**: Derive, Attribute, dan Function-like macros.
-- **Cargo Internals**: Memahami toolchain, build scripts, dan dependency resolution.
-- **Testing & Benchmarking**: Strategi validasi di level industri.
+Sub-Rak ini membedah teknik metaprogramming di Rust: dari makro deklaratif yang sederhana hingga makro prosedural yang kompleks.
 
-## 📊 Status Rak
-Progres detil Sub-Rak dapat dipantau di: **[Status RAK-07](./docs/status.md)**.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
-## Sub-Rak (Sub-Racks)
-- **SR-01_Macros**: Teknik metaprogramming.
-- **SR-02_Tooling**: Bedah ekosistem Cargo.
+### BK-01_Declarative_Macros
+Metode `macro_rules!`.
+- **CH-01_Pattern_Matching_Macros**: Menengah pola sintaksis dengan makro.
+
+### BK-02_Procedural_Macros
+Manipulasi token stream secara langsung.
+- **CH-01_Derive_Macros**: Automatisasi implementasi Traits.
+- **CH-02_Attribute_Macros**: Menambahkan metadata dan perilaku pada item kode.
+- **CH-03_Function_Like_Macros**: Makro yang dipanggil seperti fungsi biasa.
 
 ---
-*Kembali ke [README](../../README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-04-core-mechanics](../README.md)*

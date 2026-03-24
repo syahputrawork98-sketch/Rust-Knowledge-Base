@@ -1,19 +1,24 @@
-# RAK-06-concurrency-async (The Stage)
+# SR-02-concurrency-async (The Orchestrator)
 
-Rak ini membedah bagaimana Rust menangani banyak tugas sekaligus secara aman dan efisien.
+> **"Bekerja Secara Paralel dan Asinkron Tanpa Rasa Takut."**
 
-## Fokus Pembelajaran
-- **Fearless Concurrency**: Threads, Channels, dan Mutex.
-- **Sync & Send Traits**: Fondasi keamanan thread di level tipe data.
-- **Async/Await**: Pendekatan non-blocking I/O.
-- **Futures & Runtimes**: Cara kerja internal executors.
+Sub-Rak ini membedah salah satu janji utama Rust: *Fearless Concurrency*. Kita mempelajari cara menjalankan tugas secara simultan dengan jaminan keamanan memori.
 
-## 📊 Status Rak
-Progres detil Sub-Rak dapat dipantau di: **[Status RAK-06](./docs/status.md)**.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
-## Sub-Rak (Sub-Racks)
-- **SR-01_MultiThreading**: Komunikasi antar thread.
-- **SR-02_Asynchronous**: State machine di balik Async/Await.
+### BK-01_Multi_Threaded
+Eksekusi paralel menggunakan thread sistem.
+- **CH-01_Thread_Spawn**: Membuat dan mengelola thread baru.
+- **CH-02_Channels_mpsc**: Komunikasi antar thread melalui pengiriman pesan.
+
+### BK-02_Async_Await
+Pemrograman asinkron untuk I/O intensif.
+- **CH-01_Futures**: Memahami kontrak masa depan di Rust.
+- **CH-02_Tokio_Runtime**: Menggunakan pelaksana (executor) paling populer.
 
 ---
-*Kembali ke [README](../../README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-05-ecosystem](../README.md)*

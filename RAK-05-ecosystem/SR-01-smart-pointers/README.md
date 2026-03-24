@@ -1,19 +1,29 @@
-# RAK-04-smart-pointers (The Inventory)
+# SR-01-smart-pointers (The Envelopes)
 
-Rak ini membahas manajemen memori tingkat lanjut menggunakan pointer cerdas yang disediakan oleh *Standard Library*.
+> **"Mengelola Alokasi Memori dengan Pintar: Box, Rc, dan Arc."**
 
-## Fokus Pembelajaran
-- `Box<T>`: Alokasi heap eksplisit.
-- `Rc<T>` & `Arc<T>`: Reference counting untuk kepemilikan ganda.
-- `RefCell<T>` & Interior Mutability.
-- `Pin<T>`: Menjamin objek tidak berpindah di memori.
+Sub-Rak ini membedah berbagai tipe data pointer di Rust yang memberikan kemampuan manajemen memori otomatis dan aman melalui mekanisme RAII.
 
-## 📊 Status Rak
-Progres detil Sub-Rak dapat dipantau di: **[Status RAK-04](./docs/status.md)**.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
-## Sub-Rak (Sub-Racks)
-- **SR-01_PointerMechanics**: Cara kerja pointer di bawah kap mesin.
-- **SR-02_ResourceManagement**: RAII & Drop traits.
+### BK-01_Heap_Allocation
+Memahami pemindahan data ke heap.
+- **CH-01_Box_T**: Penggunaan `Box<T>` untuk alokasi heap sederhana.
+- **CH-02_Recursive_Types**: Menyelesaikan masalah tipe rekursif dengan indirection.
+
+### BK-02_Reference_Counting
+Berbagi kepemilikan data antar bagian program.
+- **CH-01_Rc_T**: Multiple ownership untuk single-threaded.
+- **CH-02_Arc_T**: Thread-safe reference counting untuk multi-threaded.
+
+### BK-03_Interior_Mutability
+Mengubah data di balik referensi immutable.
+- **CH-01_RefCell_T**: Mekanisme interior mutability di runtime.
+- **CH-02_Mutex_RwLock**: Interior mutability yang aman secara thread.
 
 ---
-*Kembali ke [README](../../README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-05-ecosystem](../README.md)*

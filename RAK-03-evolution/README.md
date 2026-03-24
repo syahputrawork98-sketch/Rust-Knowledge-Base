@@ -14,7 +14,8 @@ Rust terus berkembang tanpa memecahkan kompatibilitas (Stability without Stagnat
 Status: ⚪ **Planned**
 
 ## Sub-Rak (Sub-Racks)
-- **SR-01-edition-guide**: Detail perubahan teknis per Edition.
+- **[SR-01-edition-guide](./SR-01-edition-guide/)**: Detail pengerjaan per Edition (2015, 2018, 2021).
+- **[SR-02-future-proposals](./SR-02-future-proposals/)**: Roadmap & RFC masa depan Rust.
 
 ---
 *Kembali ke [README](../../README.md)*

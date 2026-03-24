@@ -1,27 +1,24 @@
-# RAK-01-fundamentals (The Gateway)
+# SR-01-fundamentals (The Gateway)
 
-> **"Pintu Pertama Menuju Dunia Systems Programming."**
+> **"Pintu Pertama Menuju Ekosistem Sistem: Tooling & Hello World."**
 
-Rak ini didesain sebagai jembatan bagi pemula (atau "orang awam" di dunia low-level) untuk berkenalan dengan Rust tanpa rasa takut. Kita tidak langsung membahas memori yang rumit, melainkan membangun fondasi logika yang kokoh terlebih dahulu.
+Sub-Rak ini berfokus pada persiapan lingkungan kerja dan pemahaman dasar bagaimana kode Rust dikelola, dikompilasi, dan dijalankan menggunakan `cargo`.
 
-## Mengapa Rak Ini Penting?
-Dokumentasi resmi seringkali mengasumsikan pembaca sudah paham konsep sistem. Di sini, kita membedah segalanya dari nol—mulai dari cara instalasi hingga bagaimana program Rust membuat keputusan (`control flow`). Rak ini adalah tiket Anda untuk memahami sintaksis Rust sebelum masuk ke "Jiwa" Rust (Ownership) di Rak selanjutnya.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
-## Fokus Pembelajaran
-1. **Tooling**: Mengenal `cargo` sebagai asisten pribadi Anda.
-2. **Sintaksis**: Menulis kode Rust yang bersih dan mengikuti standar.
-3. **Logika**: Memahami bagaimana data disimpan dan diproses secara statis.
+### BK-01_Environment_Setup
+Fokus pada instalasi dan konfigurasi toolchain Rust.
+- **CH-01_Installation**: Menggunakan `rustup` untuk mengelola versi Rust.
+- **CH-02_Toolchain_Check**: Memverifikasi `rustc`, `cargo`, dan `rust-analyzer`.
 
-## 📊 Status Rak
-Progres detil setiap Sub-Rak dapat dipantau di: **[Status RAK-01](./docs/status.md)**.
-Status: 🟢 **Published (100%)**
-
-## Sub-Rak (Sub-Racks)
-- **SR-01_Basic_Foundations**: Setup toolchain & Hello World (Fondasi ekosistem).
-- **SR-02_Variables_Mutability**: Variabel & Shadowing (Aturan penamaan data).
-- **SR-03_Data_Types**: Scalar & Compound Types (Memahami bentuk data).
-- **SR-04_Functions**: Sintaks fungsi & Expressions (Modularisasi kode).
-- **SR-05_Control_Flow**: Kondisional & Loops (Alokasi logika program).
+### BK-02_Hello_Rust
+Memahami struktur proyek Rust paling minimal.
+- **CH-01_Cargo_Binary**: Membuat proyek biner baru dengan `cargo new`.
+- **CH-02_Code_Anatomy**: Pembedahan fungsi `main()` dan makro `println!`.
 
 ---
-*Kembali ke [README](../../README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-02-foundation](../README.md)*

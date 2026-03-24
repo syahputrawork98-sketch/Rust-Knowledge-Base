@@ -1,21 +1,25 @@
-# RAK-03-type-machine (The Blueprint)
+# SR-02-type-machine (Abstract Architecture)
 
-Rak ini membedah bagaimana Rust membangun abstraksi yang kuat dan aman menggunakan sistem tipe datanya.
+> **"Membangun Abstraksi dengan Traits dan Generics."**
 
-## Fokus Pembelajaran
-- **Enums & Pattern Matching**: `Option`, `Result`, dan kekuatan `match`.
-- **Generics**: Menulis kode yang fleksibel tanpa mengorbankan performa.
-- **Traits**: Definisi perilaku (Behavior) antar tipe data.
-- **Trait Objects**: Polymorphism via Dynamic Dispatch (`dyn`).
+Sub-Rak ini membedah bagaimana Rust menangani polimorfisme dan abstraksi tingkat tinggi tanpa mengorbankan performa (Zero-cost Abstractions).
 
-## 📊 Status Rak
-Progres detil Sub-Rak dapat dipantau di: **[Status RAK-03](./docs/status.md)**.
+## 📚 Rencana Pengembangan (Books & Chapters)
 
-## Sub-Rak (Sub-Racks)
-- **[SR-01_Enums_Patterns](./SR-01_Enums_Patterns/README.md)**: Enums, Option, dan Match.
-- **[SR-02_Generics_Traits](./SR-02_Generics_Traits/README.md)**: Abstraksi dan Kontrak Perilaku.
-- **[SR-03_Error_Handling](./SR-03_Error_Handling/README.md)**: Result dan Propagasi Error.
-- **[SR-04_Advanced_Abstractions](./SR-04_Advanced_Abstractions/README.md)**: Trait Bounds dan Dynamic Dispatch.
+### BK-01_Generics
+Menulis kode yang fleksibel terhadap tipe data.
+- **CH-01_Generic_Functions**: Fungsi yang bisa bekerja dengan berbagai tipe sekaligus.
+- **CH-02_Generic_Structs_Enums**: Definisi tipe data generik.
+
+### BK-02_Traits
+Mendefinisikan perilaku bersama.
+- **CH-01_Trait_Bounds**: Membatasi generik hanya pada tipe yang memiliki perilaku tertentu.
+- **CH-02_Standard_Traits**: Mengenal `Debug`, `Clone`, `Default`, dll.
+- **CH-03_Trait_Objects**: Dynamic dispatch untuk fleksibilitas runtime.
 
 ---
-*Kembali ke [README](../../README.md)*
+## 📊 Status Sub-Rak
+Status: ⚪ **Skeleton Ready**
+
+---
+*Kembali ke [RAK-04-core-mechanics](../README.md)*
