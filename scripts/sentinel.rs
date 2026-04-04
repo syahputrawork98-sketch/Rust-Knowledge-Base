@@ -3,19 +3,15 @@ use std::path::Path;
 use std::process;
 
 fn main() {
-    println!("\n\x1b[1;38;5;208m[SENTINEL V4 - RUST EDITION]\x1b[0m");
-    println!("--- Fearless Guardian of the Gold Standard ---\n");
+    println!("\n[SENTINEL V4 - RUST EDITION]");
+    println!("--- Rust Knowledge Base Integrity Audit ---\n");
 
     let base_path = Path::new(".");
     let mut errors = Vec::new();
 
-    // 1. Check Standards (The Pillars)
-    let required_standards = vec![
-        "architecture.md", "conventions.md", "workflow.md", 
-        "status-protocol.md", "terminology.md", "aesthetic.md"
-    ];
-    
-    println!("[\x1b[34mSTEP 1\x1b[0m] Auditing Standard Documents...");
+    let required_standards = vec!["README.md", "authoring.md"];
+
+    println!("[STEP 1] Auditing standard documents...");
     for f in required_standards {
         let p = Path::new("docs/standards").join(f);
         if !p.exists() {
@@ -23,12 +19,15 @@ fn main() {
         }
     }
 
-    // 2. Check 7-RAK Blueprint
-    println!("[\x1b[34mSTEP 2\x1b[0m] Auditing 7-RAK Structural Integrity...");
+    println!("[STEP 2] Auditing 7-RAK structural integrity...");
     let racks = vec![
-        "RAK-01-anatomy", "RAK-02-foundation", "RAK-03-evolution", 
-        "RAK-04-core-mechanics", "RAK-05-ecosystem", "RAK-06-the-underworld", 
-        "RAK-07-specialization"
+        "RAK-01-anatomy",
+        "RAK-02-foundation",
+        "RAK-03-evolution",
+        "RAK-04-core-mechanics",
+        "RAK-05-ecosystem",
+        "RAK-06-the-underworld",
+        "RAK-07-specialization",
     ];
 
     for rack in &racks {
@@ -40,21 +39,20 @@ fn main() {
         }
     }
 
-    // 3. Deep Audit (Recursive)
-    println!("[\x1b[34mSTEP 3\x1b[0m] Deep Dive Recursive Validation...");
+    println!("[STEP 3] Deep recursive validation...");
     if let Err(e) = audit_dir(base_path, &mut errors, &racks) {
-        println!("\x1b[31mError walking directory: {}\x1b[0m", e);
+        println!("Error walking directory: {}", e);
     }
 
     println!("\n--- Audit Results ---");
     if errors.is_empty() {
-        println!("\x1b[32m[PASS] All systems nominal. Gold Standard V4 achieved!\x1b[0m\n");
+        println!("[PASS] All systems nominal.\n");
     } else {
-        println!("\x1b[31m[FAIL] Found {} inconsistencies:\x1b[0m", errors.len());
+        println!("[FAIL] Found {} inconsistencies:", errors.len());
         for (i, err) in errors.iter().enumerate() {
             println!("  {:02}. {}", i + 1, err);
         }
-        println!("\n\x1b[33mRecommendation: Re-align with docs/standards/ documentation.\x1b[0m\n");
+        println!("\nRecommendation: Re-align with docs/standards/ documentation.\n");
         process::exit(1);
     }
 }
@@ -66,26 +64,32 @@ fn audit_dir(dir: &Path, errors: &mut Vec<String>, racks: &[&str]) -> std::io::R
             let path = entry.path();
             if path.is_dir() {
                 let name = path.file_name().unwrap().to_str().unwrap();
-                
-                // Skip non-RAK top-level dirs
+
                 if dir == Path::new(".") && !racks.contains(&name) {
                     continue;
                 }
 
-                // Generic Skip logic
-                if name.starts_with('.') || name == "target" || name == "scripts" || name == "docs" || name == "assets" || name == "examples" {
+                if name.starts_with('.')
+                    || name == "target"
+                    || name == "scripts"
+                    || name == "docs"
+                    || name == "assets"
+                    || name == "examples"
+                {
                     continue;
                 }
 
-                // Structure Rules
-                if name.starts_with("RAK-") || name.starts_with("SR-") || name.starts_with("BK-") || name.starts_with("CH-") {
+                if name.starts_with("RAK-")
+                    || name.starts_with("SR-")
+                    || name.starts_with("BK-")
+                    || name.starts_with("CH-")
+                    || name.starts_with("SEC-")
+                {
                     if !path.join("README.md").exists() {
                         errors.push(format!("Missing README.md in {:?}", path));
                     }
 
-                    // RAK-01 Flat Structure Rule (RAK -> BK directly)
                     if name == "RAK-01-anatomy" {
-                        // Scan for any SR- in RAK-01 (Violates Flat structure)
                         for sub_entry in fs::read_dir(&path)? {
                             let sub_name = sub_entry?.file_name().into_string().unwrap();
                             if sub_name.starts_with("SR-") {
@@ -94,20 +98,23 @@ fn audit_dir(dir: &Path, errors: &mut Vec<String>, racks: &[&str]) -> std::io::R
                         }
                     }
 
-                    // Standard Branching Rules
-                    if name.starts_with("CH-") {
-                        if !path.join("assets").exists() {
-                            errors.push(format!("Missing 'assets/' in {:?}", path));
-                        }
-                        if !path.join("examples").exists() {
-                            errors.push(format!("Missing 'examples/' in {:?}", path));
+                    if name.starts_with("CH-") || name.starts_with("SEC-") {
+                        for support_dir in ["assets", "examples"] {
+                            let support_path = path.join(support_dir);
+                            if support_path.exists() && is_dir_empty(&support_path)? {
+                                errors.push(format!("Empty '{}/' in {:?}", support_dir, path));
+                            }
                         }
                     }
                 }
-                
+
                 audit_dir(&path, errors, racks)?;
             }
         }
     }
     Ok(())
+}
+
+fn is_dir_empty(path: &Path) -> std::io::Result<bool> {
+    Ok(fs::read_dir(path)?.next().is_none())
 }
